@@ -6,4 +6,4 @@ path_to_aws="s3://hcp-openaccess/HCP_1200/"
 
 echo "Start copying ${path_to_aws} to ${path_to_save}..."
 
-aws s3 cp $path_to_aws $path_to_save --recursive
+aws s3 sync $path_to_aws $path_to_save --exclude "*/unprocessed/*"
