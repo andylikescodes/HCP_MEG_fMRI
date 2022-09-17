@@ -7,7 +7,7 @@ while IFS= read -r line
 do
     # Make the directories for the data
     subjectid="$line"
-    path_to_save="/mnt/d/HCP_MEG_fMRI/data/${subjectid}"
+    path_to_save="/mnt/e/HCP_MEG_fMRI/data/${subjectid}"
     echo "Creating folder ${path_to_save}..."
     mkdir -p $path_to_save
 
