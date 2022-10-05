@@ -10,7 +10,10 @@
 #SBATCH --time=12:00:00
 
 module load apptainer
-
-apptainer exec --fakeroot ./container/workbench_test.sif wb_command -help
+mkdir /tmp/wb_command_test
+cp ./container/workbench_test.sif /tmp/wb_command_test/workbench_test.sif
+cd /tmp/wb_command_test
+apptainer exec --fakeroot workbench_test.sif wb_command -help
+rm -rf /tmp/wb_command_test
 
 
