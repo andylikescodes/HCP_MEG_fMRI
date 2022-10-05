@@ -10,11 +10,11 @@
 #SBATCH --time=12:00:00
 
 module load apptainer
-apt-get -y install libqt5core5a
+#apt-get -y install libqt5core5a
 mkdir /tmp/wb_command_test
-cp /home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/container/workbench_test.sif /tmp/wb_command_test/workbench_test.sif
+cp /home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/container/workbench_test2.sif /tmp/wb_command_test/workbench_test2.sif
 cd /tmp/wb_command_test
-apptainer exec --fakeroot workbench_test.sif wb_command -help
+apptainer exec --fakeroot workbench_test2.sif wb_command -help
 rm -rf /tmp/wb_command_test
 
 
