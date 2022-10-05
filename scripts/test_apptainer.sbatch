@@ -10,4 +10,5 @@
 #SBATCH --time=12:00:00
 
 module load apptainer
+apptainer exec home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/container/workbench_test.sif wb_command -help
 
