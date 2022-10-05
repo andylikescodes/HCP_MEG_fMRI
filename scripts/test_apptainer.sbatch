@@ -11,7 +11,7 @@
 
 module load apptainer
 mkdir /tmp/wb_command_test
-cp ./container/workbench_test.sif /tmp/wb_command_test/workbench_test.sif
+cp /home/deliang@chapman.edu/Documents.HCP_MEG_fMRI/container/workbench_test.sif /tmp/wb_command_test/workbench_test.sif
 cd /tmp/wb_command_test
 apptainer exec --fakeroot workbench_test.sif wb_command -help
 rm -rf /tmp/wb_command_test
