@@ -9,7 +9,7 @@
 #SBATCH --ntasks=1
 #SBATCH --time=12:00:00
 
-module load connect-wb/1.5.0
+module load connectome-wb/1.5.0
 wb_command -version
 wb_command -help
 
