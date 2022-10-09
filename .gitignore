@@ -4,3 +4,5 @@ external
 output
 container
 *.swp
+*.pyc
+.ipynb_checkpoints
