@@ -11,6 +11,7 @@ mkdir -p $sbatch_script_path
 
 while IFS= read -r line; do 
     filename="${sbatch_script_path}/${line}.sbatch"
+    [ -e $filename ] && rm $filename
     touch $filename
     echo "#!/bin/env bash" >> "$filename"
     echo "#SBATCH --job-name=${line}_${script_name}" >> "$filename"
