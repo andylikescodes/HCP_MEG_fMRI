@@ -12,10 +12,10 @@ mkdir -p $sbatch_script_path
 while IFS= read -r line; do 
     filename="${sbatch_script_path}/${line}.sbatch"
     touch $filename
-    echo "#!bin/env bash" >> "$filename"
+    echo "#!/bin/env bash" >> "$filename"
     echo "#SBATCH --job-name=${line}_${script_name}" >> "$filename"
-    echo "#SBATCH --output=${sbatch_script_path}/${script_name}.out" >> "$filename"
-    echo "#SBATCH --error=${sbatch_script_path}/${script_name}.err" >> "$filename"
+    echo "#SBATCH --output=${sbatch_script_path}/${line}_${script_name}.out" >> "$filename"
+    echo "#SBATCH --error=${sbatch_script_path}/${line}_${script_name}.err" >> "$filename"
     echo "#SBATCH --partition=defq" >> "$filename"
     echo "#SBATCH --nodes=1" >> "$filename"
     echo "#SBATCH --cpus-per-task=4" >> "$filename"
