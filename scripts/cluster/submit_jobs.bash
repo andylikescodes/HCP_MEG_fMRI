@@ -27,5 +27,5 @@ while IFS= read -r line; do
 
     sbatch "$filename"
 
-done < subject_list_file
+done < $subject_list_file
 
