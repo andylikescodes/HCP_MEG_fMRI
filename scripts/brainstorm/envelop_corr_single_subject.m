@@ -23,7 +23,7 @@ iProtocol = bst_get('Protocol', ProtocolName);
 % Input files
 sFiles = [];
 SubjectNames = {...
-    subject_id;
+    subject_id};
 
 % Start a new report
 bst_report('Start', sFiles);
