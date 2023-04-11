@@ -55,7 +55,9 @@ def calculate_average_corr(all_corr):
     avg_m = tmp/len(all_corr)
     return avg_m
 
-def plot_corr(corr, save_name=None, close=True):
+def plot_corr(corr, save_name=None, close=True, zero_diag=False):
+    if zero_diag==True:
+        np.fill_diagonal(corr, 0)
     plt.figure()
     sns.heatmap(corr, annot=False,center=0, cmap=sns.diverging_palette(220, 10, as_cmap=True))
     if save_name:
