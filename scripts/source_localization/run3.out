@@ -1,0 +1,2879 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019b (9.7.0.1190202) 64-bit (glnxa64)
+                              August 21, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+-------------------------------------------------------------------------------------------
+FieldTrip is developed by members and collaborators of the Donders Institute for Brain,
+Cognition and Behaviour at Radboud University, Nijmegen, the Netherlands.
+
+                          --------------------------
+                        /                            \
+                     ------------------------------------
+                    /                                    \
+          -------------------------------------------------
+         /                            /\/\/\/\/\ 
+         ---------------------------------------------------
+                  |        F  i  e  l  d  T  r  i  p       |
+                  ------------------------------------------
+                   \                                      /
+                     ------------------------------------
+                          \            /
+                            ----------
+
+Please cite the FieldTrip reference paper when you have used FieldTrip in your study.
+Robert Oostenveld, Pascal Fries, Eric Maris, and Jan-Mathijs Schoffelen. FieldTrip: Open
+Source Software for Advanced Analysis of MEG, EEG, and Invasive Electrophysiological Data.
+Computational Intelligence and Neuroscience, vol. 2011, Article ID 156869, 9 pages, 2011.
+doi:10.1155/2011/156869.
+-------------------------------------------------------------------------------------------
+91 subjects found in input data path 
+ > SURFACE RESMAPLING subject 1 of 91 (id .xdlm)
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/.xdlm/.xdlm_MEG_anatomy/TMPNEW_LEFT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 115)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/.xdlm/.xdlm_MEG_anatomy/TMPNEW_RIGHT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 116)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/.xdlm/.xdlm_MEG_anatomy/TMPOLD_LEFT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 117)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/.xdlm/.xdlm_MEG_anatomy/TMPOLD_RIGHT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 118)] 
+ > SURFACE RESMAPLING subject 2 of 91 (id 100307)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 3 of 91 (id 102816)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 4 of 91 (id 105923)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 5 of 91 (id 106521)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 6 of 91 (id 108323)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 7 of 91 (id 109123)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 8 of 91 (id 111514)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 9 of 91 (id 112920)
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/112920/112920_MEG_anatomy/TMPNEW_LEFT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 115)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/112920/112920_MEG_anatomy/TMPNEW_RIGHT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 116)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/112920/112920_MEG_anatomy/TMPOLD_LEFT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 117)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/112920/112920_MEG_anatomy/TMPOLD_RIGHT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 118)] 
+ > SURFACE RESMAPLING subject 10 of 91 (id 113922)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 11 of 91 (id 116524)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 12 of 91 (id 116726)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 13 of 91 (id 133019)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 14 of 91 (id 140117)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 15 of 91 (id 146129)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 16 of 91 (id 149741)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 17 of 91 (id 153732)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 18 of 91 (id 154532)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 19 of 91 (id 156334)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 20 of 91 (id 158136)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 21 of 91 (id 162026)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 22 of 91 (id 162935)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 23 of 91 (id 164636)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 24 of 91 (id 166438)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 25 of 91 (id 169040)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 26 of 91 (id 172029)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 27 of 91 (id 174841)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 28 of 91 (id 175237)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 29 of 91 (id 175540)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 30 of 91 (id 177746)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 31 of 91 (id 179245)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 32 of 91 (id 181232)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 33 of 91 (id 185442)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 34 of 91 (id 187547)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 35 of 91 (id 189349)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 36 of 91 (id 191033)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 37 of 91 (id 191437)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 38 of 91 (id 191841)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 39 of 91 (id 192641)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 40 of 91 (id 195041)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 41 of 91 (id 198653)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 42 of 91 (id 204521)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 43 of 91 (id 205119)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 44 of 91 (id 212318)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 45 of 91 (id 212823)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 46 of 91 (id 214524)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 47 of 91 (id 221319)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 48 of 91 (id 223929)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 49 of 91 (id 233326)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 50 of 91 (id 248339)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 51 of 91 (id 250427)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 52 of 91 (id 255639)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 53 of 91 (id 257845)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 54 of 91 (id 283543)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 55 of 91 (id 287248)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 56 of 91 (id 293748)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 57 of 91 (id 352132)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 58 of 91 (id 352738)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 59 of 91 (id 353740)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 60 of 91 (id 358144)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 61 of 91 (id 406836)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 62 of 91 (id 433839)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 63 of 91 (id 512835)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 64 of 91 (id 555348)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 65 of 91 (id 559053)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 66 of 91 (id 568963)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 67 of 91 (id 581450)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 68 of 91 (id 599671)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 69 of 91 (id 601127)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 70 of 91 (id 660951)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 71 of 91 (id 662551)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 72 of 91 (id 665254)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 73 of 91 (id 667056)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 74 of 91 (id 679770)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 75 of 91 (id 680957)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 76 of 91 (id 706040)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 77 of 91 (id 707749)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 78 of 91 (id 715950)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 79 of 91 (id 725751)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 80 of 91 (id 735148)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 81 of 91 (id 783462)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 82 of 91 (id 814649)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 83 of 91 (id 825048)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 84 of 91 (id 872764)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 85 of 91 (id 877168)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 86 of 91 (id 891667)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 87 of 91 (id 898176)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 88 of 91 (id 912447)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 89 of 91 (id 917255)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 90 of 91 (id 990366)
+   output exists - subject skipped
+ > SURFACE RESMAPLING subject 91 of 91 (id Results)
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+/bin/bash: wb_command: command not found
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/Results/Results_MEG_anatomy/TMPNEW_LEFT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 115)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/Results/Results_MEG_anatomy/TMPNEW_RIGHT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 116)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/Results/Results_MEG_anatomy/TMPOLD_LEFT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 117)] 
+[Warning: File
+'/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/Results/Results_MEG_anatomy/TMPOLD_RIGHT.aparc.164k.label.gii'
+not found.] 
+[> In batch_ResampleParcellation_SourceReconstruction (line 118)] 
+ > SOURCE RECONSTRUCTION subject 1 of 91 (id .xdlm)
+  NO MODEL DATA for subject .xdlm
+ > SOURCE RECONSTRUCTION subject 2 of 91 (id 100307)
+reading file "100307_MEG_anatomy_sourcemodel_2d.mat" with md5sum b1be8b6b3cef22fc443735f14583f769
+Elapsed time is 0.597469 seconds.
+reading file "100307_MEG_anatomy_headmodel.mat" with md5sum 2a27ae8a49a90efc14ca00584516e201
+reading file "100307_MEG_3-Restin_rmegpreproc.mat" with md5sum 7b464839e762e056ce874c877c88d17c
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+ In '/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/external/fieldtrip-20220707/fieldtrip-20220707/utilities/ft_checkconfig.m' at line 130
+ In '/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/external/fieldtrip-20220707/fieldtrip-20220707/ft_prepare_leadfield.m' at line 137
+
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 5 seconds and required the additional allocation of an estimated 7 MB
+the call to "ft_prepare_leadfield" took 56 seconds and required the additional allocation of an estimated 220 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 241 channels and 147 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 1 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 4 seconds and required the additional allocation of an estimated 593 MB
+beamforming starting...
+the input is timelock data with 241 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 547 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 543 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 207/8004scanning grid 529/8004scanning grid 871/8004scanning grid 1096/8004scanning grid 1378/8004scanning grid 1687/8004scanning grid 2019/8004scanning grid 2287/8004scanning grid 2539/8004scanning grid 2756/8004scanning grid 3027/8004scanning grid 3288/8004scanning grid 3568/8004scanning grid 3847/8004scanning grid 4127/8004scanning grid 4403/8004scanning grid 4744/8004scanning grid 4957/8004scanning grid 5143/8004scanning grid 5407/8004scanning grid 5737/8004scanning grid 6010/8004scanning grid 6318/8004scanning grid 6620/8004scanning grid 6922/8004scanning grid 7246/8004scanning grid 7563/8004scanning grid 7881/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 547 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 241 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 1 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 5 MB
+...ROI beamforming ended
+>> Nsensors = 241
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 147
+...back-projecting trial 1 of 147
+...back-projecting trial 2 of 147
+...back-projecting trial 3 of 147
+...back-projecting trial 4 of 147
+...back-projecting trial 5 of 147
+...back-projecting trial 6 of 147
+...back-projecting trial 7 of 147
+...back-projecting trial 8 of 147
+...back-projecting trial 9 of 147
+...back-projecting trial 10 of 147
+...back-projecting trial 11 of 147
+...back-projecting trial 12 of 147
+...back-projecting trial 13 of 147
+...back-projecting trial 14 of 147
+...back-projecting trial 15 of 147
+...back-projecting trial 16 of 147
+...back-projecting trial 17 of 147
+...back-projecting trial 18 of 147
+...back-projecting trial 19 of 147
+...back-projecting trial 20 of 147
+...back-projecting trial 21 of 147
+...back-projecting trial 22 of 147
+...back-projecting trial 23 of 147
+...back-projecting trial 24 of 147
+...back-projecting trial 25 of 147
+...back-projecting trial 26 of 147
+...back-projecting trial 27 of 147
+...back-projecting trial 28 of 147
+...back-projecting trial 29 of 147
+...back-projecting trial 30 of 147
+...back-projecting trial 31 of 147
+...back-projecting trial 32 of 147
+...back-projecting trial 33 of 147
+...back-projecting trial 34 of 147
+...back-projecting trial 35 of 147
+...back-projecting trial 36 of 147
+...back-projecting trial 37 of 147
+...back-projecting trial 38 of 147
+...back-projecting trial 39 of 147
+...back-projecting trial 40 of 147
+...back-projecting trial 41 of 147
+...back-projecting trial 42 of 147
+...back-projecting trial 43 of 147
+...back-projecting trial 44 of 147
+...back-projecting trial 45 of 147
+...back-projecting trial 46 of 147
+...back-projecting trial 47 of 147
+...back-projecting trial 48 of 147
+...back-projecting trial 49 of 147
+...back-projecting trial 50 of 147
+...back-projecting trial 51 of 147
+...back-projecting trial 52 of 147
+...back-projecting trial 53 of 147
+...back-projecting trial 54 of 147
+...back-projecting trial 55 of 147
+...back-projecting trial 56 of 147
+...back-projecting trial 57 of 147
+...back-projecting trial 58 of 147
+...back-projecting trial 59 of 147
+...back-projecting trial 60 of 147
+...back-projecting trial 61 of 147
+...back-projecting trial 62 of 147
+...back-projecting trial 63 of 147
+...back-projecting trial 64 of 147
+...back-projecting trial 65 of 147
+...back-projecting trial 66 of 147
+...back-projecting trial 67 of 147
+...back-projecting trial 68 of 147
+...back-projecting trial 69 of 147
+...back-projecting trial 70 of 147
+...back-projecting trial 71 of 147
+...back-projecting trial 72 of 147
+...back-projecting trial 73 of 147
+...back-projecting trial 74 of 147
+...back-projecting trial 75 of 147
+...back-projecting trial 76 of 147
+...back-projecting trial 77 of 147
+...back-projecting trial 78 of 147
+...back-projecting trial 79 of 147
+...back-projecting trial 80 of 147
+...back-projecting trial 81 of 147
+...back-projecting trial 82 of 147
+...back-projecting trial 83 of 147
+...back-projecting trial 84 of 147
+...back-projecting trial 85 of 147
+...back-projecting trial 86 of 147
+...back-projecting trial 87 of 147
+...back-projecting trial 88 of 147
+...back-projecting trial 89 of 147
+...back-projecting trial 90 of 147
+...back-projecting trial 91 of 147
+...back-projecting trial 92 of 147
+...back-projecting trial 93 of 147
+...back-projecting trial 94 of 147
+...back-projecting trial 95 of 147
+...back-projecting trial 96 of 147
+...back-projecting trial 97 of 147
+...back-projecting trial 98 of 147
+...back-projecting trial 99 of 147
+...back-projecting trial 100 of 147
+...back-projecting trial 101 of 147
+...back-projecting trial 102 of 147
+...back-projecting trial 103 of 147
+...back-projecting trial 104 of 147
+...back-projecting trial 105 of 147
+...back-projecting trial 106 of 147
+...back-projecting trial 107 of 147
+...back-projecting trial 108 of 147
+...back-projecting trial 109 of 147
+...back-projecting trial 110 of 147
+...back-projecting trial 111 of 147
+...back-projecting trial 112 of 147
+...back-projecting trial 113 of 147
+...back-projecting trial 114 of 147
+...back-projecting trial 115 of 147
+...back-projecting trial 116 of 147
+...back-projecting trial 117 of 147
+...back-projecting trial 118 of 147
+...back-projecting trial 119 of 147
+...back-projecting trial 120 of 147
+...back-projecting trial 121 of 147
+...back-projecting trial 122 of 147
+...back-projecting trial 123 of 147
+...back-projecting trial 124 of 147
+...back-projecting trial 125 of 147
+...back-projecting trial 126 of 147
+...back-projecting trial 127 of 147
+...back-projecting trial 128 of 147
+...back-projecting trial 129 of 147
+...back-projecting trial 130 of 147
+...back-projecting trial 131 of 147
+...back-projecting trial 132 of 147
+...back-projecting trial 133 of 147
+...back-projecting trial 134 of 147
+...back-projecting trial 135 of 147
+...back-projecting trial 136 of 147
+...back-projecting trial 137 of 147
+...back-projecting trial 138 of 147
+...back-projecting trial 139 of 147
+...back-projecting trial 140 of 147
+...back-projecting trial 141 of 147
+...back-projecting trial 142 of 147
+...back-projecting trial 143 of 147
+...back-projecting trial 144 of 147
+...back-projecting trial 145 of 147
+...back-projecting trial 146 of 147
+...back-projecting trial 147 of 147
+reading file "100307_MEG_4-Restin_rmegpreproc.mat" with md5sum 0e73825aaaf9b8821f9b4b953d1b9b57
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 5 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 53 seconds and required the additional allocation of an estimated 57 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 2 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 36 MB
+the input is raw data with 246 channels and 132 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 513 MB
+beamforming starting...
+the input is timelock data with 246 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 504 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 504 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 280/8004scanning grid 488/8004scanning grid 687/8004scanning grid 1030/8004scanning grid 1359/8004scanning grid 1701/8004scanning grid 2036/8004scanning grid 2371/8004scanning grid 2697/8004scanning grid 3017/8004scanning grid 3355/8004scanning grid 3678/8004scanning grid 3937/8004scanning grid 4273/8004scanning grid 4609/8004scanning grid 4941/8004scanning grid 5277/8004scanning grid 5612/8004scanning grid 5903/8004scanning grid 6172/8004scanning grid 6475/8004scanning grid 6804/8004scanning grid 7054/8004scanning grid 7329/8004scanning grid 7667/8004scanning grid 7988/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 504 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 246 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 246
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 132
+...back-projecting trial 1 of 132
+...back-projecting trial 2 of 132
+...back-projecting trial 3 of 132
+...back-projecting trial 4 of 132
+...back-projecting trial 5 of 132
+...back-projecting trial 6 of 132
+...back-projecting trial 7 of 132
+...back-projecting trial 8 of 132
+...back-projecting trial 9 of 132
+...back-projecting trial 10 of 132
+...back-projecting trial 11 of 132
+...back-projecting trial 12 of 132
+...back-projecting trial 13 of 132
+...back-projecting trial 14 of 132
+...back-projecting trial 15 of 132
+...back-projecting trial 16 of 132
+...back-projecting trial 17 of 132
+...back-projecting trial 18 of 132
+...back-projecting trial 19 of 132
+...back-projecting trial 20 of 132
+...back-projecting trial 21 of 132
+...back-projecting trial 22 of 132
+...back-projecting trial 23 of 132
+...back-projecting trial 24 of 132
+...back-projecting trial 25 of 132
+...back-projecting trial 26 of 132
+...back-projecting trial 27 of 132
+...back-projecting trial 28 of 132
+...back-projecting trial 29 of 132
+...back-projecting trial 30 of 132
+...back-projecting trial 31 of 132
+...back-projecting trial 32 of 132
+...back-projecting trial 33 of 132
+...back-projecting trial 34 of 132
+...back-projecting trial 35 of 132
+...back-projecting trial 36 of 132
+...back-projecting trial 37 of 132
+...back-projecting trial 38 of 132
+...back-projecting trial 39 of 132
+...back-projecting trial 40 of 132
+...back-projecting trial 41 of 132
+...back-projecting trial 42 of 132
+...back-projecting trial 43 of 132
+...back-projecting trial 44 of 132
+...back-projecting trial 45 of 132
+...back-projecting trial 46 of 132
+...back-projecting trial 47 of 132
+...back-projecting trial 48 of 132
+...back-projecting trial 49 of 132
+...back-projecting trial 50 of 132
+...back-projecting trial 51 of 132
+...back-projecting trial 52 of 132
+...back-projecting trial 53 of 132
+...back-projecting trial 54 of 132
+...back-projecting trial 55 of 132
+...back-projecting trial 56 of 132
+...back-projecting trial 57 of 132
+...back-projecting trial 58 of 132
+...back-projecting trial 59 of 132
+...back-projecting trial 60 of 132
+...back-projecting trial 61 of 132
+...back-projecting trial 62 of 132
+...back-projecting trial 63 of 132
+...back-projecting trial 64 of 132
+...back-projecting trial 65 of 132
+...back-projecting trial 66 of 132
+...back-projecting trial 67 of 132
+...back-projecting trial 68 of 132
+...back-projecting trial 69 of 132
+...back-projecting trial 70 of 132
+...back-projecting trial 71 of 132
+...back-projecting trial 72 of 132
+...back-projecting trial 73 of 132
+...back-projecting trial 74 of 132
+...back-projecting trial 75 of 132
+...back-projecting trial 76 of 132
+...back-projecting trial 77 of 132
+...back-projecting trial 78 of 132
+...back-projecting trial 79 of 132
+...back-projecting trial 80 of 132
+...back-projecting trial 81 of 132
+...back-projecting trial 82 of 132
+...back-projecting trial 83 of 132
+...back-projecting trial 84 of 132
+...back-projecting trial 85 of 132
+...back-projecting trial 86 of 132
+...back-projecting trial 87 of 132
+...back-projecting trial 88 of 132
+...back-projecting trial 89 of 132
+...back-projecting trial 90 of 132
+...back-projecting trial 91 of 132
+...back-projecting trial 92 of 132
+...back-projecting trial 93 of 132
+...back-projecting trial 94 of 132
+...back-projecting trial 95 of 132
+...back-projecting trial 96 of 132
+...back-projecting trial 97 of 132
+...back-projecting trial 98 of 132
+...back-projecting trial 99 of 132
+...back-projecting trial 100 of 132
+...back-projecting trial 101 of 132
+...back-projecting trial 102 of 132
+...back-projecting trial 103 of 132
+...back-projecting trial 104 of 132
+...back-projecting trial 105 of 132
+...back-projecting trial 106 of 132
+...back-projecting trial 107 of 132
+...back-projecting trial 108 of 132
+...back-projecting trial 109 of 132
+...back-projecting trial 110 of 132
+...back-projecting trial 111 of 132
+...back-projecting trial 112 of 132
+...back-projecting trial 113 of 132
+...back-projecting trial 114 of 132
+...back-projecting trial 115 of 132
+...back-projecting trial 116 of 132
+...back-projecting trial 117 of 132
+...back-projecting trial 118 of 132
+...back-projecting trial 119 of 132
+...back-projecting trial 120 of 132
+...back-projecting trial 121 of 132
+...back-projecting trial 122 of 132
+...back-projecting trial 123 of 132
+...back-projecting trial 124 of 132
+...back-projecting trial 125 of 132
+...back-projecting trial 126 of 132
+...back-projecting trial 127 of 132
+...back-projecting trial 128 of 132
+...back-projecting trial 129 of 132
+...back-projecting trial 130 of 132
+...back-projecting trial 131 of 132
+...back-projecting trial 132 of 132
+reading file "100307_MEG_5-Restin_rmegpreproc.mat" with md5sum 958ef3e69cbaff5fbfff473076b4e436
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 5 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 55 seconds and required the additional allocation of an estimated 35 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 1 MB
+the input is raw data with 246 channels and 146 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 558 MB
+beamforming starting...
+the input is timelock data with 246 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 557 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 557 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 263/8004scanning grid 567/8004scanning grid 758/8004scanning grid 989/8004scanning grid 1238/8004scanning grid 1526/8004scanning grid 1795/8004scanning grid 2080/8004scanning grid 2408/8004scanning grid 2713/8004scanning grid 3004/8004scanning grid 3323/8004scanning grid 3605/8004scanning grid 3916/8004scanning grid 4242/8004scanning grid 4570/8004scanning grid 4868/8004scanning grid 5102/8004scanning grid 5380/8004scanning grid 5573/8004scanning grid 5880/8004scanning grid 6138/8004scanning grid 6485/8004scanning grid 6831/8004scanning grid 7175/8004scanning grid 7510/8004scanning grid 7676/8004scanning grid 7947/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 558 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 246 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 246
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 146
+...back-projecting trial 1 of 146
+...back-projecting trial 2 of 146
+...back-projecting trial 3 of 146
+...back-projecting trial 4 of 146
+...back-projecting trial 5 of 146
+...back-projecting trial 6 of 146
+...back-projecting trial 7 of 146
+...back-projecting trial 8 of 146
+...back-projecting trial 9 of 146
+...back-projecting trial 10 of 146
+...back-projecting trial 11 of 146
+...back-projecting trial 12 of 146
+...back-projecting trial 13 of 146
+...back-projecting trial 14 of 146
+...back-projecting trial 15 of 146
+...back-projecting trial 16 of 146
+...back-projecting trial 17 of 146
+...back-projecting trial 18 of 146
+...back-projecting trial 19 of 146
+...back-projecting trial 20 of 146
+...back-projecting trial 21 of 146
+...back-projecting trial 22 of 146
+...back-projecting trial 23 of 146
+...back-projecting trial 24 of 146
+...back-projecting trial 25 of 146
+...back-projecting trial 26 of 146
+...back-projecting trial 27 of 146
+...back-projecting trial 28 of 146
+...back-projecting trial 29 of 146
+...back-projecting trial 30 of 146
+...back-projecting trial 31 of 146
+...back-projecting trial 32 of 146
+...back-projecting trial 33 of 146
+...back-projecting trial 34 of 146
+...back-projecting trial 35 of 146
+...back-projecting trial 36 of 146
+...back-projecting trial 37 of 146
+...back-projecting trial 38 of 146
+...back-projecting trial 39 of 146
+...back-projecting trial 40 of 146
+...back-projecting trial 41 of 146
+...back-projecting trial 42 of 146
+...back-projecting trial 43 of 146
+...back-projecting trial 44 of 146
+...back-projecting trial 45 of 146
+...back-projecting trial 46 of 146
+...back-projecting trial 47 of 146
+...back-projecting trial 48 of 146
+...back-projecting trial 49 of 146
+...back-projecting trial 50 of 146
+...back-projecting trial 51 of 146
+...back-projecting trial 52 of 146
+...back-projecting trial 53 of 146
+...back-projecting trial 54 of 146
+...back-projecting trial 55 of 146
+...back-projecting trial 56 of 146
+...back-projecting trial 57 of 146
+...back-projecting trial 58 of 146
+...back-projecting trial 59 of 146
+...back-projecting trial 60 of 146
+...back-projecting trial 61 of 146
+...back-projecting trial 62 of 146
+...back-projecting trial 63 of 146
+...back-projecting trial 64 of 146
+...back-projecting trial 65 of 146
+...back-projecting trial 66 of 146
+...back-projecting trial 67 of 146
+...back-projecting trial 68 of 146
+...back-projecting trial 69 of 146
+...back-projecting trial 70 of 146
+...back-projecting trial 71 of 146
+...back-projecting trial 72 of 146
+...back-projecting trial 73 of 146
+...back-projecting trial 74 of 146
+...back-projecting trial 75 of 146
+...back-projecting trial 76 of 146
+...back-projecting trial 77 of 146
+...back-projecting trial 78 of 146
+...back-projecting trial 79 of 146
+...back-projecting trial 80 of 146
+...back-projecting trial 81 of 146
+...back-projecting trial 82 of 146
+...back-projecting trial 83 of 146
+...back-projecting trial 84 of 146
+...back-projecting trial 85 of 146
+...back-projecting trial 86 of 146
+...back-projecting trial 87 of 146
+...back-projecting trial 88 of 146
+...back-projecting trial 89 of 146
+...back-projecting trial 90 of 146
+...back-projecting trial 91 of 146
+...back-projecting trial 92 of 146
+...back-projecting trial 93 of 146
+...back-projecting trial 94 of 146
+...back-projecting trial 95 of 146
+...back-projecting trial 96 of 146
+...back-projecting trial 97 of 146
+...back-projecting trial 98 of 146
+...back-projecting trial 99 of 146
+...back-projecting trial 100 of 146
+...back-projecting trial 101 of 146
+...back-projecting trial 102 of 146
+...back-projecting trial 103 of 146
+...back-projecting trial 104 of 146
+...back-projecting trial 105 of 146
+...back-projecting trial 106 of 146
+...back-projecting trial 107 of 146
+...back-projecting trial 108 of 146
+...back-projecting trial 109 of 146
+...back-projecting trial 110 of 146
+...back-projecting trial 111 of 146
+...back-projecting trial 112 of 146
+...back-projecting trial 113 of 146
+...back-projecting trial 114 of 146
+...back-projecting trial 115 of 146
+...back-projecting trial 116 of 146
+...back-projecting trial 117 of 146
+...back-projecting trial 118 of 146
+...back-projecting trial 119 of 146
+...back-projecting trial 120 of 146
+...back-projecting trial 121 of 146
+...back-projecting trial 122 of 146
+...back-projecting trial 123 of 146
+...back-projecting trial 124 of 146
+...back-projecting trial 125 of 146
+...back-projecting trial 126 of 146
+...back-projecting trial 127 of 146
+...back-projecting trial 128 of 146
+...back-projecting trial 129 of 146
+...back-projecting trial 130 of 146
+...back-projecting trial 131 of 146
+...back-projecting trial 132 of 146
+...back-projecting trial 133 of 146
+...back-projecting trial 134 of 146
+...back-projecting trial 135 of 146
+...back-projecting trial 136 of 146
+...back-projecting trial 137 of 146
+...back-projecting trial 138 of 146
+...back-projecting trial 139 of 146
+...back-projecting trial 140 of 146
+...back-projecting trial 141 of 146
+...back-projecting trial 142 of 146
+...back-projecting trial 143 of 146
+...back-projecting trial 144 of 146
+...back-projecting trial 145 of 146
+...back-projecting trial 146 of 146
+ > SOURCE RECONSTRUCTION subject 3 of 91 (id 102816)
+reading file "102816_MEG_anatomy_sourcemodel_2d.mat" with md5sum 62eaa7999e04cb248f967603ff26429d
+Elapsed time is 0.307026 seconds.
+reading file "102816_MEG_anatomy_headmodel.mat" with md5sum 0c5167d4aea23a112372a7cc9ae2b480
+reading file "102816_MEG_3-Restin_rmegpreproc.mat" with md5sum cd71b69a822a96d78317d55a9b9b61f9
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 53 seconds and required the additional allocation of an estimated 0 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 243 channels and 144 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 544 MB
+beamforming starting...
+the input is timelock data with 243 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 544 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 544 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 262/8004scanning grid 587/8004scanning grid 911/8004scanning grid 1234/8004scanning grid 1518/8004scanning grid 1775/8004scanning grid 2071/8004scanning grid 2305/8004scanning grid 2558/8004scanning grid 2786/8004scanning grid 2999/8004scanning grid 3296/8004scanning grid 3555/8004scanning grid 3886/8004scanning grid 4141/8004scanning grid 4484/8004scanning grid 4819/8004scanning grid 5161/8004scanning grid 5474/8004scanning grid 5780/8004scanning grid 5957/8004scanning grid 6222/8004scanning grid 6452/8004scanning grid 6694/8004scanning grid 6861/8004scanning grid 7139/8004scanning grid 7471/8004scanning grid 7812/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 544 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 243 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 243
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 144
+...back-projecting trial 1 of 144
+...back-projecting trial 2 of 144
+...back-projecting trial 3 of 144
+...back-projecting trial 4 of 144
+...back-projecting trial 5 of 144
+...back-projecting trial 6 of 144
+...back-projecting trial 7 of 144
+...back-projecting trial 8 of 144
+...back-projecting trial 9 of 144
+...back-projecting trial 10 of 144
+...back-projecting trial 11 of 144
+...back-projecting trial 12 of 144
+...back-projecting trial 13 of 144
+...back-projecting trial 14 of 144
+...back-projecting trial 15 of 144
+...back-projecting trial 16 of 144
+...back-projecting trial 17 of 144
+...back-projecting trial 18 of 144
+...back-projecting trial 19 of 144
+...back-projecting trial 20 of 144
+...back-projecting trial 21 of 144
+...back-projecting trial 22 of 144
+...back-projecting trial 23 of 144
+...back-projecting trial 24 of 144
+...back-projecting trial 25 of 144
+...back-projecting trial 26 of 144
+...back-projecting trial 27 of 144
+...back-projecting trial 28 of 144
+...back-projecting trial 29 of 144
+...back-projecting trial 30 of 144
+...back-projecting trial 31 of 144
+...back-projecting trial 32 of 144
+...back-projecting trial 33 of 144
+...back-projecting trial 34 of 144
+...back-projecting trial 35 of 144
+...back-projecting trial 36 of 144
+...back-projecting trial 37 of 144
+...back-projecting trial 38 of 144
+...back-projecting trial 39 of 144
+...back-projecting trial 40 of 144
+...back-projecting trial 41 of 144
+...back-projecting trial 42 of 144
+...back-projecting trial 43 of 144
+...back-projecting trial 44 of 144
+...back-projecting trial 45 of 144
+...back-projecting trial 46 of 144
+...back-projecting trial 47 of 144
+...back-projecting trial 48 of 144
+...back-projecting trial 49 of 144
+...back-projecting trial 50 of 144
+...back-projecting trial 51 of 144
+...back-projecting trial 52 of 144
+...back-projecting trial 53 of 144
+...back-projecting trial 54 of 144
+...back-projecting trial 55 of 144
+...back-projecting trial 56 of 144
+...back-projecting trial 57 of 144
+...back-projecting trial 58 of 144
+...back-projecting trial 59 of 144
+...back-projecting trial 60 of 144
+...back-projecting trial 61 of 144
+...back-projecting trial 62 of 144
+...back-projecting trial 63 of 144
+...back-projecting trial 64 of 144
+...back-projecting trial 65 of 144
+...back-projecting trial 66 of 144
+...back-projecting trial 67 of 144
+...back-projecting trial 68 of 144
+...back-projecting trial 69 of 144
+...back-projecting trial 70 of 144
+...back-projecting trial 71 of 144
+...back-projecting trial 72 of 144
+...back-projecting trial 73 of 144
+...back-projecting trial 74 of 144
+...back-projecting trial 75 of 144
+...back-projecting trial 76 of 144
+...back-projecting trial 77 of 144
+...back-projecting trial 78 of 144
+...back-projecting trial 79 of 144
+...back-projecting trial 80 of 144
+...back-projecting trial 81 of 144
+...back-projecting trial 82 of 144
+...back-projecting trial 83 of 144
+...back-projecting trial 84 of 144
+...back-projecting trial 85 of 144
+...back-projecting trial 86 of 144
+...back-projecting trial 87 of 144
+...back-projecting trial 88 of 144
+...back-projecting trial 89 of 144
+...back-projecting trial 90 of 144
+...back-projecting trial 91 of 144
+...back-projecting trial 92 of 144
+...back-projecting trial 93 of 144
+...back-projecting trial 94 of 144
+...back-projecting trial 95 of 144
+...back-projecting trial 96 of 144
+...back-projecting trial 97 of 144
+...back-projecting trial 98 of 144
+...back-projecting trial 99 of 144
+...back-projecting trial 100 of 144
+...back-projecting trial 101 of 144
+...back-projecting trial 102 of 144
+...back-projecting trial 103 of 144
+...back-projecting trial 104 of 144
+...back-projecting trial 105 of 144
+...back-projecting trial 106 of 144
+...back-projecting trial 107 of 144
+...back-projecting trial 108 of 144
+...back-projecting trial 109 of 144
+...back-projecting trial 110 of 144
+...back-projecting trial 111 of 144
+...back-projecting trial 112 of 144
+...back-projecting trial 113 of 144
+...back-projecting trial 114 of 144
+...back-projecting trial 115 of 144
+...back-projecting trial 116 of 144
+...back-projecting trial 117 of 144
+...back-projecting trial 118 of 144
+...back-projecting trial 119 of 144
+...back-projecting trial 120 of 144
+...back-projecting trial 121 of 144
+...back-projecting trial 122 of 144
+...back-projecting trial 123 of 144
+...back-projecting trial 124 of 144
+...back-projecting trial 125 of 144
+...back-projecting trial 126 of 144
+...back-projecting trial 127 of 144
+...back-projecting trial 128 of 144
+...back-projecting trial 129 of 144
+...back-projecting trial 130 of 144
+...back-projecting trial 131 of 144
+...back-projecting trial 132 of 144
+...back-projecting trial 133 of 144
+...back-projecting trial 134 of 144
+...back-projecting trial 135 of 144
+...back-projecting trial 136 of 144
+...back-projecting trial 137 of 144
+...back-projecting trial 138 of 144
+...back-projecting trial 139 of 144
+...back-projecting trial 140 of 144
+...back-projecting trial 141 of 144
+...back-projecting trial 142 of 144
+...back-projecting trial 143 of 144
+...back-projecting trial 144 of 144
+reading file "102816_MEG_4-Restin_rmegpreproc.mat" with md5sum 12c5473d79192e916032284dfb39700d
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 51 seconds and required the additional allocation of an estimated 42 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 31 MB
+the input is raw data with 245 channels and 143 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 545 MB
+beamforming starting...
+the input is timelock data with 245 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 544 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 544 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 330/8004scanning grid 617/8004scanning grid 795/8004scanning grid 995/8004scanning grid 1254/8004scanning grid 1487/8004scanning grid 1730/8004scanning grid 2001/8004scanning grid 2297/8004scanning grid 2584/8004scanning grid 2923/8004scanning grid 3172/8004scanning grid 3459/8004scanning grid 3764/8004scanning grid 4080/8004scanning grid 4349/8004scanning grid 4688/8004scanning grid 5008/8004scanning grid 5219/8004scanning grid 5534/8004scanning grid 5854/8004scanning grid 6200/8004scanning grid 6510/8004scanning grid 6794/8004scanning grid 7111/8004scanning grid 7461/8004scanning grid 7719/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 544 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 245 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 245
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 143
+...back-projecting trial 1 of 143
+...back-projecting trial 2 of 143
+...back-projecting trial 3 of 143
+...back-projecting trial 4 of 143
+...back-projecting trial 5 of 143
+...back-projecting trial 6 of 143
+...back-projecting trial 7 of 143
+...back-projecting trial 8 of 143
+...back-projecting trial 9 of 143
+...back-projecting trial 10 of 143
+...back-projecting trial 11 of 143
+...back-projecting trial 12 of 143
+...back-projecting trial 13 of 143
+...back-projecting trial 14 of 143
+...back-projecting trial 15 of 143
+...back-projecting trial 16 of 143
+...back-projecting trial 17 of 143
+...back-projecting trial 18 of 143
+...back-projecting trial 19 of 143
+...back-projecting trial 20 of 143
+...back-projecting trial 21 of 143
+...back-projecting trial 22 of 143
+...back-projecting trial 23 of 143
+...back-projecting trial 24 of 143
+...back-projecting trial 25 of 143
+...back-projecting trial 26 of 143
+...back-projecting trial 27 of 143
+...back-projecting trial 28 of 143
+...back-projecting trial 29 of 143
+...back-projecting trial 30 of 143
+...back-projecting trial 31 of 143
+...back-projecting trial 32 of 143
+...back-projecting trial 33 of 143
+...back-projecting trial 34 of 143
+...back-projecting trial 35 of 143
+...back-projecting trial 36 of 143
+...back-projecting trial 37 of 143
+...back-projecting trial 38 of 143
+...back-projecting trial 39 of 143
+...back-projecting trial 40 of 143
+...back-projecting trial 41 of 143
+...back-projecting trial 42 of 143
+...back-projecting trial 43 of 143
+...back-projecting trial 44 of 143
+...back-projecting trial 45 of 143
+...back-projecting trial 46 of 143
+...back-projecting trial 47 of 143
+...back-projecting trial 48 of 143
+...back-projecting trial 49 of 143
+...back-projecting trial 50 of 143
+...back-projecting trial 51 of 143
+...back-projecting trial 52 of 143
+...back-projecting trial 53 of 143
+...back-projecting trial 54 of 143
+...back-projecting trial 55 of 143
+...back-projecting trial 56 of 143
+...back-projecting trial 57 of 143
+...back-projecting trial 58 of 143
+...back-projecting trial 59 of 143
+...back-projecting trial 60 of 143
+...back-projecting trial 61 of 143
+...back-projecting trial 62 of 143
+...back-projecting trial 63 of 143
+...back-projecting trial 64 of 143
+...back-projecting trial 65 of 143
+...back-projecting trial 66 of 143
+...back-projecting trial 67 of 143
+...back-projecting trial 68 of 143
+...back-projecting trial 69 of 143
+...back-projecting trial 70 of 143
+...back-projecting trial 71 of 143
+...back-projecting trial 72 of 143
+...back-projecting trial 73 of 143
+...back-projecting trial 74 of 143
+...back-projecting trial 75 of 143
+...back-projecting trial 76 of 143
+...back-projecting trial 77 of 143
+...back-projecting trial 78 of 143
+...back-projecting trial 79 of 143
+...back-projecting trial 80 of 143
+...back-projecting trial 81 of 143
+...back-projecting trial 82 of 143
+...back-projecting trial 83 of 143
+...back-projecting trial 84 of 143
+...back-projecting trial 85 of 143
+...back-projecting trial 86 of 143
+...back-projecting trial 87 of 143
+...back-projecting trial 88 of 143
+...back-projecting trial 89 of 143
+...back-projecting trial 90 of 143
+...back-projecting trial 91 of 143
+...back-projecting trial 92 of 143
+...back-projecting trial 93 of 143
+...back-projecting trial 94 of 143
+...back-projecting trial 95 of 143
+...back-projecting trial 96 of 143
+...back-projecting trial 97 of 143
+...back-projecting trial 98 of 143
+...back-projecting trial 99 of 143
+...back-projecting trial 100 of 143
+...back-projecting trial 101 of 143
+...back-projecting trial 102 of 143
+...back-projecting trial 103 of 143
+...back-projecting trial 104 of 143
+...back-projecting trial 105 of 143
+...back-projecting trial 106 of 143
+...back-projecting trial 107 of 143
+...back-projecting trial 108 of 143
+...back-projecting trial 109 of 143
+...back-projecting trial 110 of 143
+...back-projecting trial 111 of 143
+...back-projecting trial 112 of 143
+...back-projecting trial 113 of 143
+...back-projecting trial 114 of 143
+...back-projecting trial 115 of 143
+...back-projecting trial 116 of 143
+...back-projecting trial 117 of 143
+...back-projecting trial 118 of 143
+...back-projecting trial 119 of 143
+...back-projecting trial 120 of 143
+...back-projecting trial 121 of 143
+...back-projecting trial 122 of 143
+...back-projecting trial 123 of 143
+...back-projecting trial 124 of 143
+...back-projecting trial 125 of 143
+...back-projecting trial 126 of 143
+...back-projecting trial 127 of 143
+...back-projecting trial 128 of 143
+...back-projecting trial 129 of 143
+...back-projecting trial 130 of 143
+...back-projecting trial 131 of 143
+...back-projecting trial 132 of 143
+...back-projecting trial 133 of 143
+...back-projecting trial 134 of 143
+...back-projecting trial 135 of 143
+...back-projecting trial 136 of 143
+...back-projecting trial 137 of 143
+...back-projecting trial 138 of 143
+...back-projecting trial 139 of 143
+...back-projecting trial 140 of 143
+...back-projecting trial 141 of 143
+...back-projecting trial 142 of 143
+...back-projecting trial 143 of 143
+reading file "102816_MEG_5-Restin_rmegpreproc.mat" with md5sum 5aab8d4e0f696eec04f5ec772a205a4c
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 53 seconds and required the additional allocation of an estimated 0 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 244 channels and 144 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 4 seconds and required the additional allocation of an estimated 546 MB
+beamforming starting...
+the input is timelock data with 244 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 546 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 546 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 241/8004scanning grid 589/8004scanning grid 842/8004scanning grid 1001/8004scanning grid 1236/8004scanning grid 1473/8004scanning grid 1767/8004scanning grid 2085/8004scanning grid 2381/8004scanning grid 2718/8004scanning grid 3063/8004scanning grid 3405/8004scanning grid 3729/8004scanning grid 4069/8004scanning grid 4354/8004scanning grid 4641/8004scanning grid 4873/8004scanning grid 5140/8004scanning grid 5345/8004scanning grid 5623/8004scanning grid 5922/8004scanning grid 6224/8004scanning grid 6443/8004scanning grid 6703/8004scanning grid 7003/8004scanning grid 7329/8004scanning grid 7521/8004scanning grid 7828/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 546 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 244 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 244
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 144
+...back-projecting trial 1 of 144
+...back-projecting trial 2 of 144
+...back-projecting trial 3 of 144
+...back-projecting trial 4 of 144
+...back-projecting trial 5 of 144
+...back-projecting trial 6 of 144
+...back-projecting trial 7 of 144
+...back-projecting trial 8 of 144
+...back-projecting trial 9 of 144
+...back-projecting trial 10 of 144
+...back-projecting trial 11 of 144
+...back-projecting trial 12 of 144
+...back-projecting trial 13 of 144
+...back-projecting trial 14 of 144
+...back-projecting trial 15 of 144
+...back-projecting trial 16 of 144
+...back-projecting trial 17 of 144
+...back-projecting trial 18 of 144
+...back-projecting trial 19 of 144
+...back-projecting trial 20 of 144
+...back-projecting trial 21 of 144
+...back-projecting trial 22 of 144
+...back-projecting trial 23 of 144
+...back-projecting trial 24 of 144
+...back-projecting trial 25 of 144
+...back-projecting trial 26 of 144
+...back-projecting trial 27 of 144
+...back-projecting trial 28 of 144
+...back-projecting trial 29 of 144
+...back-projecting trial 30 of 144
+...back-projecting trial 31 of 144
+...back-projecting trial 32 of 144
+...back-projecting trial 33 of 144
+...back-projecting trial 34 of 144
+...back-projecting trial 35 of 144
+...back-projecting trial 36 of 144
+...back-projecting trial 37 of 144
+...back-projecting trial 38 of 144
+...back-projecting trial 39 of 144
+...back-projecting trial 40 of 144
+...back-projecting trial 41 of 144
+...back-projecting trial 42 of 144
+...back-projecting trial 43 of 144
+...back-projecting trial 44 of 144
+...back-projecting trial 45 of 144
+...back-projecting trial 46 of 144
+...back-projecting trial 47 of 144
+...back-projecting trial 48 of 144
+...back-projecting trial 49 of 144
+...back-projecting trial 50 of 144
+...back-projecting trial 51 of 144
+...back-projecting trial 52 of 144
+...back-projecting trial 53 of 144
+...back-projecting trial 54 of 144
+...back-projecting trial 55 of 144
+...back-projecting trial 56 of 144
+...back-projecting trial 57 of 144
+...back-projecting trial 58 of 144
+...back-projecting trial 59 of 144
+...back-projecting trial 60 of 144
+...back-projecting trial 61 of 144
+...back-projecting trial 62 of 144
+...back-projecting trial 63 of 144
+...back-projecting trial 64 of 144
+...back-projecting trial 65 of 144
+...back-projecting trial 66 of 144
+...back-projecting trial 67 of 144
+...back-projecting trial 68 of 144
+...back-projecting trial 69 of 144
+...back-projecting trial 70 of 144
+...back-projecting trial 71 of 144
+...back-projecting trial 72 of 144
+...back-projecting trial 73 of 144
+...back-projecting trial 74 of 144
+...back-projecting trial 75 of 144
+...back-projecting trial 76 of 144
+...back-projecting trial 77 of 144
+...back-projecting trial 78 of 144
+...back-projecting trial 79 of 144
+...back-projecting trial 80 of 144
+...back-projecting trial 81 of 144
+...back-projecting trial 82 of 144
+...back-projecting trial 83 of 144
+...back-projecting trial 84 of 144
+...back-projecting trial 85 of 144
+...back-projecting trial 86 of 144
+...back-projecting trial 87 of 144
+...back-projecting trial 88 of 144
+...back-projecting trial 89 of 144
+...back-projecting trial 90 of 144
+...back-projecting trial 91 of 144
+...back-projecting trial 92 of 144
+...back-projecting trial 93 of 144
+...back-projecting trial 94 of 144
+...back-projecting trial 95 of 144
+...back-projecting trial 96 of 144
+...back-projecting trial 97 of 144
+...back-projecting trial 98 of 144
+...back-projecting trial 99 of 144
+...back-projecting trial 100 of 144
+...back-projecting trial 101 of 144
+...back-projecting trial 102 of 144
+...back-projecting trial 103 of 144
+...back-projecting trial 104 of 144
+...back-projecting trial 105 of 144
+...back-projecting trial 106 of 144
+...back-projecting trial 107 of 144
+...back-projecting trial 108 of 144
+...back-projecting trial 109 of 144
+...back-projecting trial 110 of 144
+...back-projecting trial 111 of 144
+...back-projecting trial 112 of 144
+...back-projecting trial 113 of 144
+...back-projecting trial 114 of 144
+...back-projecting trial 115 of 144
+...back-projecting trial 116 of 144
+...back-projecting trial 117 of 144
+...back-projecting trial 118 of 144
+...back-projecting trial 119 of 144
+...back-projecting trial 120 of 144
+...back-projecting trial 121 of 144
+...back-projecting trial 122 of 144
+...back-projecting trial 123 of 144
+...back-projecting trial 124 of 144
+...back-projecting trial 125 of 144
+...back-projecting trial 126 of 144
+...back-projecting trial 127 of 144
+...back-projecting trial 128 of 144
+...back-projecting trial 129 of 144
+...back-projecting trial 130 of 144
+...back-projecting trial 131 of 144
+...back-projecting trial 132 of 144
+...back-projecting trial 133 of 144
+...back-projecting trial 134 of 144
+...back-projecting trial 135 of 144
+...back-projecting trial 136 of 144
+...back-projecting trial 137 of 144
+...back-projecting trial 138 of 144
+...back-projecting trial 139 of 144
+...back-projecting trial 140 of 144
+...back-projecting trial 141 of 144
+...back-projecting trial 142 of 144
+...back-projecting trial 143 of 144
+...back-projecting trial 144 of 144
+ > SOURCE RECONSTRUCTION subject 4 of 91 (id 105923)
+reading file "105923_MEG_anatomy_sourcemodel_2d.mat" with md5sum 974e2d3e7ae3b66e5621c122a85135f5
+Elapsed time is 0.269134 seconds.
+reading file "105923_MEG_anatomy_headmodel.mat" with md5sum cad312af4af2a0736bbcd2bf9c6f6f6b
+reading file "105923_MEG_3-Restin_rmegpreproc.mat" with md5sum c3586c293a68d20c4c96156dcfd442fe
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 54 seconds and required the additional allocation of an estimated 0 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 245 channels and 141 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 537 MB
+beamforming starting...
+the input is timelock data with 245 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 537 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 534 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 329/8004scanning grid 668/8004scanning grid 1011/8004scanning grid 1255/8004scanning grid 1506/8004scanning grid 1710/8004scanning grid 1889/8004scanning grid 2192/8004scanning grid 2413/8004scanning grid 2728/8004scanning grid 2936/8004scanning grid 3172/8004scanning grid 3471/8004scanning grid 3752/8004scanning grid 4025/8004scanning grid 4283/8004scanning grid 4525/8004scanning grid 4801/8004scanning grid 5096/8004scanning grid 5350/8004scanning grid 5675/8004scanning grid 5952/8004scanning grid 6240/8004scanning grid 6435/8004scanning grid 6689/8004scanning grid 6994/8004scanning grid 7291/8004scanning grid 7569/8004scanning grid 7878/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 537 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 245 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 245
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 141
+...back-projecting trial 1 of 141
+...back-projecting trial 2 of 141
+...back-projecting trial 3 of 141
+...back-projecting trial 4 of 141
+...back-projecting trial 5 of 141
+...back-projecting trial 6 of 141
+...back-projecting trial 7 of 141
+...back-projecting trial 8 of 141
+...back-projecting trial 9 of 141
+...back-projecting trial 10 of 141
+...back-projecting trial 11 of 141
+...back-projecting trial 12 of 141
+...back-projecting trial 13 of 141
+...back-projecting trial 14 of 141
+...back-projecting trial 15 of 141
+...back-projecting trial 16 of 141
+...back-projecting trial 17 of 141
+...back-projecting trial 18 of 141
+...back-projecting trial 19 of 141
+...back-projecting trial 20 of 141
+...back-projecting trial 21 of 141
+...back-projecting trial 22 of 141
+...back-projecting trial 23 of 141
+...back-projecting trial 24 of 141
+...back-projecting trial 25 of 141
+...back-projecting trial 26 of 141
+...back-projecting trial 27 of 141
+...back-projecting trial 28 of 141
+...back-projecting trial 29 of 141
+...back-projecting trial 30 of 141
+...back-projecting trial 31 of 141
+...back-projecting trial 32 of 141
+...back-projecting trial 33 of 141
+...back-projecting trial 34 of 141
+...back-projecting trial 35 of 141
+...back-projecting trial 36 of 141
+...back-projecting trial 37 of 141
+...back-projecting trial 38 of 141
+...back-projecting trial 39 of 141
+...back-projecting trial 40 of 141
+...back-projecting trial 41 of 141
+...back-projecting trial 42 of 141
+...back-projecting trial 43 of 141
+...back-projecting trial 44 of 141
+...back-projecting trial 45 of 141
+...back-projecting trial 46 of 141
+...back-projecting trial 47 of 141
+...back-projecting trial 48 of 141
+...back-projecting trial 49 of 141
+...back-projecting trial 50 of 141
+...back-projecting trial 51 of 141
+...back-projecting trial 52 of 141
+...back-projecting trial 53 of 141
+...back-projecting trial 54 of 141
+...back-projecting trial 55 of 141
+...back-projecting trial 56 of 141
+...back-projecting trial 57 of 141
+...back-projecting trial 58 of 141
+...back-projecting trial 59 of 141
+...back-projecting trial 60 of 141
+...back-projecting trial 61 of 141
+...back-projecting trial 62 of 141
+...back-projecting trial 63 of 141
+...back-projecting trial 64 of 141
+...back-projecting trial 65 of 141
+...back-projecting trial 66 of 141
+...back-projecting trial 67 of 141
+...back-projecting trial 68 of 141
+...back-projecting trial 69 of 141
+...back-projecting trial 70 of 141
+...back-projecting trial 71 of 141
+...back-projecting trial 72 of 141
+...back-projecting trial 73 of 141
+...back-projecting trial 74 of 141
+...back-projecting trial 75 of 141
+...back-projecting trial 76 of 141
+...back-projecting trial 77 of 141
+...back-projecting trial 78 of 141
+...back-projecting trial 79 of 141
+...back-projecting trial 80 of 141
+...back-projecting trial 81 of 141
+...back-projecting trial 82 of 141
+...back-projecting trial 83 of 141
+...back-projecting trial 84 of 141
+...back-projecting trial 85 of 141
+...back-projecting trial 86 of 141
+...back-projecting trial 87 of 141
+...back-projecting trial 88 of 141
+...back-projecting trial 89 of 141
+...back-projecting trial 90 of 141
+...back-projecting trial 91 of 141
+...back-projecting trial 92 of 141
+...back-projecting trial 93 of 141
+...back-projecting trial 94 of 141
+...back-projecting trial 95 of 141
+...back-projecting trial 96 of 141
+...back-projecting trial 97 of 141
+...back-projecting trial 98 of 141
+...back-projecting trial 99 of 141
+...back-projecting trial 100 of 141
+...back-projecting trial 101 of 141
+...back-projecting trial 102 of 141
+...back-projecting trial 103 of 141
+...back-projecting trial 104 of 141
+...back-projecting trial 105 of 141
+...back-projecting trial 106 of 141
+...back-projecting trial 107 of 141
+...back-projecting trial 108 of 141
+...back-projecting trial 109 of 141
+...back-projecting trial 110 of 141
+...back-projecting trial 111 of 141
+...back-projecting trial 112 of 141
+...back-projecting trial 113 of 141
+...back-projecting trial 114 of 141
+...back-projecting trial 115 of 141
+...back-projecting trial 116 of 141
+...back-projecting trial 117 of 141
+...back-projecting trial 118 of 141
+...back-projecting trial 119 of 141
+...back-projecting trial 120 of 141
+...back-projecting trial 121 of 141
+...back-projecting trial 122 of 141
+...back-projecting trial 123 of 141
+...back-projecting trial 124 of 141
+...back-projecting trial 125 of 141
+...back-projecting trial 126 of 141
+...back-projecting trial 127 of 141
+...back-projecting trial 128 of 141
+...back-projecting trial 129 of 141
+...back-projecting trial 130 of 141
+...back-projecting trial 131 of 141
+...back-projecting trial 132 of 141
+...back-projecting trial 133 of 141
+...back-projecting trial 134 of 141
+...back-projecting trial 135 of 141
+...back-projecting trial 136 of 141
+...back-projecting trial 137 of 141
+...back-projecting trial 138 of 141
+...back-projecting trial 139 of 141
+...back-projecting trial 140 of 141
+...back-projecting trial 141 of 141
+reading file "105923_MEG_4-Restin_rmegpreproc.mat" with md5sum 1b982078455d9187304c1d6707948659
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 52 seconds and required the additional allocation of an estimated 0 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 242 channels and 133 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 500 MB
+beamforming starting...
+the input is timelock data with 242 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 224/8004scanning grid 398/8004scanning grid 689/8004scanning grid 1008/8004scanning grid 1308/8004scanning grid 1608/8004scanning grid 1949/8004scanning grid 2271/8004scanning grid 2574/8004scanning grid 2878/8004scanning grid 3183/8004scanning grid 3463/8004scanning grid 3786/8004scanning grid 4076/8004scanning grid 4412/8004scanning grid 4739/8004scanning grid 5056/8004scanning grid 5379/8004scanning grid 5702/8004scanning grid 6029/8004scanning grid 6356/8004scanning grid 6693/8004scanning grid 6956/8004scanning grid 7192/8004scanning grid 7502/8004scanning grid 7814/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 500 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 242 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 242
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 133
+...back-projecting trial 1 of 133
+...back-projecting trial 2 of 133
+...back-projecting trial 3 of 133
+...back-projecting trial 4 of 133
+...back-projecting trial 5 of 133
+...back-projecting trial 6 of 133
+...back-projecting trial 7 of 133
+...back-projecting trial 8 of 133
+...back-projecting trial 9 of 133
+...back-projecting trial 10 of 133
+...back-projecting trial 11 of 133
+...back-projecting trial 12 of 133
+...back-projecting trial 13 of 133
+...back-projecting trial 14 of 133
+...back-projecting trial 15 of 133
+...back-projecting trial 16 of 133
+...back-projecting trial 17 of 133
+...back-projecting trial 18 of 133
+...back-projecting trial 19 of 133
+...back-projecting trial 20 of 133
+...back-projecting trial 21 of 133
+...back-projecting trial 22 of 133
+...back-projecting trial 23 of 133
+...back-projecting trial 24 of 133
+...back-projecting trial 25 of 133
+...back-projecting trial 26 of 133
+...back-projecting trial 27 of 133
+...back-projecting trial 28 of 133
+...back-projecting trial 29 of 133
+...back-projecting trial 30 of 133
+...back-projecting trial 31 of 133
+...back-projecting trial 32 of 133
+...back-projecting trial 33 of 133
+...back-projecting trial 34 of 133
+...back-projecting trial 35 of 133
+...back-projecting trial 36 of 133
+...back-projecting trial 37 of 133
+...back-projecting trial 38 of 133
+...back-projecting trial 39 of 133
+...back-projecting trial 40 of 133
+...back-projecting trial 41 of 133
+...back-projecting trial 42 of 133
+...back-projecting trial 43 of 133
+...back-projecting trial 44 of 133
+...back-projecting trial 45 of 133
+...back-projecting trial 46 of 133
+...back-projecting trial 47 of 133
+...back-projecting trial 48 of 133
+...back-projecting trial 49 of 133
+...back-projecting trial 50 of 133
+...back-projecting trial 51 of 133
+...back-projecting trial 52 of 133
+...back-projecting trial 53 of 133
+...back-projecting trial 54 of 133
+...back-projecting trial 55 of 133
+...back-projecting trial 56 of 133
+...back-projecting trial 57 of 133
+...back-projecting trial 58 of 133
+...back-projecting trial 59 of 133
+...back-projecting trial 60 of 133
+...back-projecting trial 61 of 133
+...back-projecting trial 62 of 133
+...back-projecting trial 63 of 133
+...back-projecting trial 64 of 133
+...back-projecting trial 65 of 133
+...back-projecting trial 66 of 133
+...back-projecting trial 67 of 133
+...back-projecting trial 68 of 133
+...back-projecting trial 69 of 133
+...back-projecting trial 70 of 133
+...back-projecting trial 71 of 133
+...back-projecting trial 72 of 133
+...back-projecting trial 73 of 133
+...back-projecting trial 74 of 133
+...back-projecting trial 75 of 133
+...back-projecting trial 76 of 133
+...back-projecting trial 77 of 133
+...back-projecting trial 78 of 133
+...back-projecting trial 79 of 133
+...back-projecting trial 80 of 133
+...back-projecting trial 81 of 133
+...back-projecting trial 82 of 133
+...back-projecting trial 83 of 133
+...back-projecting trial 84 of 133
+...back-projecting trial 85 of 133
+...back-projecting trial 86 of 133
+...back-projecting trial 87 of 133
+...back-projecting trial 88 of 133
+...back-projecting trial 89 of 133
+...back-projecting trial 90 of 133
+...back-projecting trial 91 of 133
+...back-projecting trial 92 of 133
+...back-projecting trial 93 of 133
+...back-projecting trial 94 of 133
+...back-projecting trial 95 of 133
+...back-projecting trial 96 of 133
+...back-projecting trial 97 of 133
+...back-projecting trial 98 of 133
+...back-projecting trial 99 of 133
+...back-projecting trial 100 of 133
+...back-projecting trial 101 of 133
+...back-projecting trial 102 of 133
+...back-projecting trial 103 of 133
+...back-projecting trial 104 of 133
+...back-projecting trial 105 of 133
+...back-projecting trial 106 of 133
+...back-projecting trial 107 of 133
+...back-projecting trial 108 of 133
+...back-projecting trial 109 of 133
+...back-projecting trial 110 of 133
+...back-projecting trial 111 of 133
+...back-projecting trial 112 of 133
+...back-projecting trial 113 of 133
+...back-projecting trial 114 of 133
+...back-projecting trial 115 of 133
+...back-projecting trial 116 of 133
+...back-projecting trial 117 of 133
+...back-projecting trial 118 of 133
+...back-projecting trial 119 of 133
+...back-projecting trial 120 of 133
+...back-projecting trial 121 of 133
+...back-projecting trial 122 of 133
+...back-projecting trial 123 of 133
+...back-projecting trial 124 of 133
+...back-projecting trial 125 of 133
+...back-projecting trial 126 of 133
+...back-projecting trial 127 of 133
+...back-projecting trial 128 of 133
+...back-projecting trial 129 of 133
+...back-projecting trial 130 of 133
+...back-projecting trial 131 of 133
+...back-projecting trial 132 of 133
+...back-projecting trial 133 of 133
+reading file "105923_MEG_5-Restin_rmegpreproc.mat" with md5sum 9673fead35d01e2efe848edd79e71504
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 57 seconds and required the additional allocation of an estimated 32 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 246 channels and 142 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 543 MB
+beamforming starting...
+the input is timelock data with 246 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 543 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 543 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 189/8004scanning grid 472/8004scanning grid 643/8004scanning grid 818/8004scanning grid 993/8004scanning grid 1161/8004scanning grid 1461/8004scanning grid 1741/8004scanning grid 1956/8004scanning grid 2247/8004scanning grid 2593/8004scanning grid 2935/8004scanning grid 3255/8004scanning grid 3598/8004scanning grid 3898/8004scanning grid 4205/8004scanning grid 4534/8004scanning grid 4846/8004scanning grid 5025/8004scanning grid 5341/8004scanning grid 5603/8004scanning grid 5917/8004scanning grid 6245/8004scanning grid 6564/8004scanning grid 6893/8004scanning grid 7226/8004scanning grid 7550/8004scanning grid 7867/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 543 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 246 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 246
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 142
+...back-projecting trial 1 of 142
+...back-projecting trial 2 of 142
+...back-projecting trial 3 of 142
+...back-projecting trial 4 of 142
+...back-projecting trial 5 of 142
+...back-projecting trial 6 of 142
+...back-projecting trial 7 of 142
+...back-projecting trial 8 of 142
+...back-projecting trial 9 of 142
+...back-projecting trial 10 of 142
+...back-projecting trial 11 of 142
+...back-projecting trial 12 of 142
+...back-projecting trial 13 of 142
+...back-projecting trial 14 of 142
+...back-projecting trial 15 of 142
+...back-projecting trial 16 of 142
+...back-projecting trial 17 of 142
+...back-projecting trial 18 of 142
+...back-projecting trial 19 of 142
+...back-projecting trial 20 of 142
+...back-projecting trial 21 of 142
+...back-projecting trial 22 of 142
+...back-projecting trial 23 of 142
+...back-projecting trial 24 of 142
+...back-projecting trial 25 of 142
+...back-projecting trial 26 of 142
+...back-projecting trial 27 of 142
+...back-projecting trial 28 of 142
+...back-projecting trial 29 of 142
+...back-projecting trial 30 of 142
+...back-projecting trial 31 of 142
+...back-projecting trial 32 of 142
+...back-projecting trial 33 of 142
+...back-projecting trial 34 of 142
+...back-projecting trial 35 of 142
+...back-projecting trial 36 of 142
+...back-projecting trial 37 of 142
+...back-projecting trial 38 of 142
+...back-projecting trial 39 of 142
+...back-projecting trial 40 of 142
+...back-projecting trial 41 of 142
+...back-projecting trial 42 of 142
+...back-projecting trial 43 of 142
+...back-projecting trial 44 of 142
+...back-projecting trial 45 of 142
+...back-projecting trial 46 of 142
+...back-projecting trial 47 of 142
+...back-projecting trial 48 of 142
+...back-projecting trial 49 of 142
+...back-projecting trial 50 of 142
+...back-projecting trial 51 of 142
+...back-projecting trial 52 of 142
+...back-projecting trial 53 of 142
+...back-projecting trial 54 of 142
+...back-projecting trial 55 of 142
+...back-projecting trial 56 of 142
+...back-projecting trial 57 of 142
+...back-projecting trial 58 of 142
+...back-projecting trial 59 of 142
+...back-projecting trial 60 of 142
+...back-projecting trial 61 of 142
+...back-projecting trial 62 of 142
+...back-projecting trial 63 of 142
+...back-projecting trial 64 of 142
+...back-projecting trial 65 of 142
+...back-projecting trial 66 of 142
+...back-projecting trial 67 of 142
+...back-projecting trial 68 of 142
+...back-projecting trial 69 of 142
+...back-projecting trial 70 of 142
+...back-projecting trial 71 of 142
+...back-projecting trial 72 of 142
+...back-projecting trial 73 of 142
+...back-projecting trial 74 of 142
+...back-projecting trial 75 of 142
+...back-projecting trial 76 of 142
+...back-projecting trial 77 of 142
+...back-projecting trial 78 of 142
+...back-projecting trial 79 of 142
+...back-projecting trial 80 of 142
+...back-projecting trial 81 of 142
+...back-projecting trial 82 of 142
+...back-projecting trial 83 of 142
+...back-projecting trial 84 of 142
+...back-projecting trial 85 of 142
+...back-projecting trial 86 of 142
+...back-projecting trial 87 of 142
+...back-projecting trial 88 of 142
+...back-projecting trial 89 of 142
+...back-projecting trial 90 of 142
+...back-projecting trial 91 of 142
+...back-projecting trial 92 of 142
+...back-projecting trial 93 of 142
+...back-projecting trial 94 of 142
+...back-projecting trial 95 of 142
+...back-projecting trial 96 of 142
+...back-projecting trial 97 of 142
+...back-projecting trial 98 of 142
+...back-projecting trial 99 of 142
+...back-projecting trial 100 of 142
+...back-projecting trial 101 of 142
+...back-projecting trial 102 of 142
+...back-projecting trial 103 of 142
+...back-projecting trial 104 of 142
+...back-projecting trial 105 of 142
+...back-projecting trial 106 of 142
+...back-projecting trial 107 of 142
+...back-projecting trial 108 of 142
+...back-projecting trial 109 of 142
+...back-projecting trial 110 of 142
+...back-projecting trial 111 of 142
+...back-projecting trial 112 of 142
+...back-projecting trial 113 of 142
+...back-projecting trial 114 of 142
+...back-projecting trial 115 of 142
+...back-projecting trial 116 of 142
+...back-projecting trial 117 of 142
+...back-projecting trial 118 of 142
+...back-projecting trial 119 of 142
+...back-projecting trial 120 of 142
+...back-projecting trial 121 of 142
+...back-projecting trial 122 of 142
+...back-projecting trial 123 of 142
+...back-projecting trial 124 of 142
+...back-projecting trial 125 of 142
+...back-projecting trial 126 of 142
+...back-projecting trial 127 of 142
+...back-projecting trial 128 of 142
+...back-projecting trial 129 of 142
+...back-projecting trial 130 of 142
+...back-projecting trial 131 of 142
+...back-projecting trial 132 of 142
+...back-projecting trial 133 of 142
+...back-projecting trial 134 of 142
+...back-projecting trial 135 of 142
+...back-projecting trial 136 of 142
+...back-projecting trial 137 of 142
+...back-projecting trial 138 of 142
+...back-projecting trial 139 of 142
+...back-projecting trial 140 of 142
+...back-projecting trial 141 of 142
+...back-projecting trial 142 of 142
+ > SOURCE RECONSTRUCTION subject 5 of 91 (id 106521)
+reading file "106521_MEG_anatomy_sourcemodel_2d.mat" with md5sum 9d03d971cf21e35fbaa109161926ed55
+Elapsed time is 0.265241 seconds.
+reading file "106521_MEG_anatomy_headmodel.mat" with md5sum cc115ddf0b26d47fb8bf372899b43b76
+reading file "106521_MEG_3-Restin_rmegpreproc.mat" with md5sum e79f2c69418ba92c22e82085791138a1
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 5 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 53 seconds and required the additional allocation of an estimated 0 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 244 channels and 142 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 538 MB
+beamforming starting...
+the input is timelock data with 244 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 538 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 538 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 169/8004scanning grid 466/8004scanning grid 652/8004scanning grid 837/8004scanning grid 1023/8004scanning grid 1206/8004scanning grid 1381/8004scanning grid 1661/8004scanning grid 1869/8004scanning grid 2051/8004scanning grid 2232/8004scanning grid 2407/8004scanning grid 2590/8004scanning grid 2772/8004scanning grid 2954/8004scanning grid 3129/8004scanning grid 3350/8004scanning grid 3529/8004scanning grid 3712/8004scanning grid 3895/8004scanning grid 4113/8004scanning grid 4340/8004scanning grid 4591/8004scanning grid 4769/8004scanning grid 4980/8004scanning grid 5241/8004scanning grid 5533/8004scanning grid 5720/8004scanning grid 5901/8004scanning grid 6077/8004scanning grid 6277/8004scanning grid 6457/8004scanning grid 6747/8004scanning grid 6939/8004scanning grid 7121/8004scanning grid 7294/8004scanning grid 7473/8004scanning grid 7649/8004scanning grid 7792/8004scanning grid 7972/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 4 seconds and required the additional allocation of an estimated 538 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 244 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 2 MB
+...ROI beamforming ended
+>> Nsensors = 244
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 142
+...back-projecting trial 1 of 142
+...back-projecting trial 2 of 142
+...back-projecting trial 3 of 142
+...back-projecting trial 4 of 142
+...back-projecting trial 5 of 142
+...back-projecting trial 6 of 142
+...back-projecting trial 7 of 142
+...back-projecting trial 8 of 142
+...back-projecting trial 9 of 142
+...back-projecting trial 10 of 142
+...back-projecting trial 11 of 142
+...back-projecting trial 12 of 142
+...back-projecting trial 13 of 142
+...back-projecting trial 14 of 142
+...back-projecting trial 15 of 142
+...back-projecting trial 16 of 142
+...back-projecting trial 17 of 142
+...back-projecting trial 18 of 142
+...back-projecting trial 19 of 142
+...back-projecting trial 20 of 142
+...back-projecting trial 21 of 142
+...back-projecting trial 22 of 142
+...back-projecting trial 23 of 142
+...back-projecting trial 24 of 142
+...back-projecting trial 25 of 142
+...back-projecting trial 26 of 142
+...back-projecting trial 27 of 142
+...back-projecting trial 28 of 142
+...back-projecting trial 29 of 142
+...back-projecting trial 30 of 142
+...back-projecting trial 31 of 142
+...back-projecting trial 32 of 142
+...back-projecting trial 33 of 142
+...back-projecting trial 34 of 142
+...back-projecting trial 35 of 142
+...back-projecting trial 36 of 142
+...back-projecting trial 37 of 142
+...back-projecting trial 38 of 142
+...back-projecting trial 39 of 142
+...back-projecting trial 40 of 142
+...back-projecting trial 41 of 142
+...back-projecting trial 42 of 142
+...back-projecting trial 43 of 142
+...back-projecting trial 44 of 142
+...back-projecting trial 45 of 142
+...back-projecting trial 46 of 142
+...back-projecting trial 47 of 142
+...back-projecting trial 48 of 142
+...back-projecting trial 49 of 142
+...back-projecting trial 50 of 142
+...back-projecting trial 51 of 142
+...back-projecting trial 52 of 142
+...back-projecting trial 53 of 142
+...back-projecting trial 54 of 142
+...back-projecting trial 55 of 142
+...back-projecting trial 56 of 142
+...back-projecting trial 57 of 142
+...back-projecting trial 58 of 142
+...back-projecting trial 59 of 142
+...back-projecting trial 60 of 142
+...back-projecting trial 61 of 142
+...back-projecting trial 62 of 142
+...back-projecting trial 63 of 142
+...back-projecting trial 64 of 142
+...back-projecting trial 65 of 142
+...back-projecting trial 66 of 142
+...back-projecting trial 67 of 142
+...back-projecting trial 68 of 142
+...back-projecting trial 69 of 142
+...back-projecting trial 70 of 142
+...back-projecting trial 71 of 142
+...back-projecting trial 72 of 142
+...back-projecting trial 73 of 142
+...back-projecting trial 74 of 142
+...back-projecting trial 75 of 142
+...back-projecting trial 76 of 142
+...back-projecting trial 77 of 142
+...back-projecting trial 78 of 142
+...back-projecting trial 79 of 142
+...back-projecting trial 80 of 142
+...back-projecting trial 81 of 142
+...back-projecting trial 82 of 142
+...back-projecting trial 83 of 142
+...back-projecting trial 84 of 142
+...back-projecting trial 85 of 142
+...back-projecting trial 86 of 142
+...back-projecting trial 87 of 142
+...back-projecting trial 88 of 142
+...back-projecting trial 89 of 142
+...back-projecting trial 90 of 142
+...back-projecting trial 91 of 142
+...back-projecting trial 92 of 142
+...back-projecting trial 93 of 142
+...back-projecting trial 94 of 142
+...back-projecting trial 95 of 142
+...back-projecting trial 96 of 142
+...back-projecting trial 97 of 142
+...back-projecting trial 98 of 142
+...back-projecting trial 99 of 142
+...back-projecting trial 100 of 142
+...back-projecting trial 101 of 142
+...back-projecting trial 102 of 142
+...back-projecting trial 103 of 142
+...back-projecting trial 104 of 142
+...back-projecting trial 105 of 142
+...back-projecting trial 106 of 142
+...back-projecting trial 107 of 142
+...back-projecting trial 108 of 142
+...back-projecting trial 109 of 142
+...back-projecting trial 110 of 142
+...back-projecting trial 111 of 142
+...back-projecting trial 112 of 142
+...back-projecting trial 113 of 142
+...back-projecting trial 114 of 142
+...back-projecting trial 115 of 142
+...back-projecting trial 116 of 142
+...back-projecting trial 117 of 142
+...back-projecting trial 118 of 142
+...back-projecting trial 119 of 142
+...back-projecting trial 120 of 142
+...back-projecting trial 121 of 142
+...back-projecting trial 122 of 142
+...back-projecting trial 123 of 142
+...back-projecting trial 124 of 142
+...back-projecting trial 125 of 142
+...back-projecting trial 126 of 142
+...back-projecting trial 127 of 142
+...back-projecting trial 128 of 142
+...back-projecting trial 129 of 142
+...back-projecting trial 130 of 142
+...back-projecting trial 131 of 142
+...back-projecting trial 132 of 142
+...back-projecting trial 133 of 142
+...back-projecting trial 134 of 142
+...back-projecting trial 135 of 142
+...back-projecting trial 136 of 142
+...back-projecting trial 137 of 142
+...back-projecting trial 138 of 142
+...back-projecting trial 139 of 142
+...back-projecting trial 140 of 142
+...back-projecting trial 141 of 142
+...back-projecting trial 142 of 142
+reading file "106521_MEG_4-Restin_rmegpreproc.mat" with md5sum 6a472b4849fcc3bae8885aa96d44a002
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 5 seconds and required the additional allocation of an estimated 1 MB
+the call to "ft_prepare_leadfield" took 51 seconds and required the additional allocation of an estimated 0 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 245 channels and 132 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 502 MB
+beamforming starting...
+the input is timelock data with 245 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 502 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 502 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 234/8004scanning grid 489/8004scanning grid 687/8004scanning grid 967/8004scanning grid 1254/8004scanning grid 1443/8004scanning grid 1660/8004scanning grid 1849/8004scanning grid 2107/8004scanning grid 2349/8004scanning grid 2523/8004scanning grid 2727/8004scanning grid 3025/8004scanning grid 3246/8004scanning grid 3421/8004scanning grid 3696/8004scanning grid 3920/8004scanning grid 4194/8004scanning grid 4459/8004scanning grid 4791/8004scanning grid 5020/8004scanning grid 5180/8004scanning grid 5451/8004scanning grid 5629/8004scanning grid 5910/8004scanning grid 6087/8004scanning grid 6396/8004scanning grid 6641/8004scanning grid 6870/8004scanning grid 7151/8004scanning grid 7339/8004scanning grid 7506/8004scanning grid 7802/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 4 seconds and required the additional allocation of an estimated 502 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 245 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 245
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 132
+...back-projecting trial 1 of 132
+...back-projecting trial 2 of 132
+...back-projecting trial 3 of 132
+...back-projecting trial 4 of 132
+...back-projecting trial 5 of 132
+...back-projecting trial 6 of 132
+...back-projecting trial 7 of 132
+...back-projecting trial 8 of 132
+...back-projecting trial 9 of 132
+...back-projecting trial 10 of 132
+...back-projecting trial 11 of 132
+...back-projecting trial 12 of 132
+...back-projecting trial 13 of 132
+...back-projecting trial 14 of 132
+...back-projecting trial 15 of 132
+...back-projecting trial 16 of 132
+...back-projecting trial 17 of 132
+...back-projecting trial 18 of 132
+...back-projecting trial 19 of 132
+...back-projecting trial 20 of 132
+...back-projecting trial 21 of 132
+...back-projecting trial 22 of 132
+...back-projecting trial 23 of 132
+...back-projecting trial 24 of 132
+...back-projecting trial 25 of 132
+...back-projecting trial 26 of 132
+...back-projecting trial 27 of 132
+...back-projecting trial 28 of 132
+...back-projecting trial 29 of 132
+...back-projecting trial 30 of 132
+...back-projecting trial 31 of 132
+...back-projecting trial 32 of 132
+...back-projecting trial 33 of 132
+...back-projecting trial 34 of 132
+...back-projecting trial 35 of 132
+...back-projecting trial 36 of 132
+...back-projecting trial 37 of 132
+...back-projecting trial 38 of 132
+...back-projecting trial 39 of 132
+...back-projecting trial 40 of 132
+...back-projecting trial 41 of 132
+...back-projecting trial 42 of 132
+...back-projecting trial 43 of 132
+...back-projecting trial 44 of 132
+...back-projecting trial 45 of 132
+...back-projecting trial 46 of 132
+...back-projecting trial 47 of 132
+...back-projecting trial 48 of 132
+...back-projecting trial 49 of 132
+...back-projecting trial 50 of 132
+...back-projecting trial 51 of 132
+...back-projecting trial 52 of 132
+...back-projecting trial 53 of 132
+...back-projecting trial 54 of 132
+...back-projecting trial 55 of 132
+...back-projecting trial 56 of 132
+...back-projecting trial 57 of 132
+...back-projecting trial 58 of 132
+...back-projecting trial 59 of 132
+...back-projecting trial 60 of 132
+...back-projecting trial 61 of 132
+...back-projecting trial 62 of 132
+...back-projecting trial 63 of 132
+...back-projecting trial 64 of 132
+...back-projecting trial 65 of 132
+...back-projecting trial 66 of 132
+...back-projecting trial 67 of 132
+...back-projecting trial 68 of 132
+...back-projecting trial 69 of 132
+...back-projecting trial 70 of 132
+...back-projecting trial 71 of 132
+...back-projecting trial 72 of 132
+...back-projecting trial 73 of 132
+...back-projecting trial 74 of 132
+...back-projecting trial 75 of 132
+...back-projecting trial 76 of 132
+...back-projecting trial 77 of 132
+...back-projecting trial 78 of 132
+...back-projecting trial 79 of 132
+...back-projecting trial 80 of 132
+...back-projecting trial 81 of 132
+...back-projecting trial 82 of 132
+...back-projecting trial 83 of 132
+...back-projecting trial 84 of 132
+...back-projecting trial 85 of 132
+...back-projecting trial 86 of 132
+...back-projecting trial 87 of 132
+...back-projecting trial 88 of 132
+...back-projecting trial 89 of 132
+...back-projecting trial 90 of 132
+...back-projecting trial 91 of 132
+...back-projecting trial 92 of 132
+...back-projecting trial 93 of 132
+...back-projecting trial 94 of 132
+...back-projecting trial 95 of 132
+...back-projecting trial 96 of 132
+...back-projecting trial 97 of 132
+...back-projecting trial 98 of 132
+...back-projecting trial 99 of 132
+...back-projecting trial 100 of 132
+...back-projecting trial 101 of 132
+...back-projecting trial 102 of 132
+...back-projecting trial 103 of 132
+...back-projecting trial 104 of 132
+...back-projecting trial 105 of 132
+...back-projecting trial 106 of 132
+...back-projecting trial 107 of 132
+...back-projecting trial 108 of 132
+...back-projecting trial 109 of 132
+...back-projecting trial 110 of 132
+...back-projecting trial 111 of 132
+...back-projecting trial 112 of 132
+...back-projecting trial 113 of 132
+...back-projecting trial 114 of 132
+...back-projecting trial 115 of 132
+...back-projecting trial 116 of 132
+...back-projecting trial 117 of 132
+...back-projecting trial 118 of 132
+...back-projecting trial 119 of 132
+...back-projecting trial 120 of 132
+...back-projecting trial 121 of 132
+...back-projecting trial 122 of 132
+...back-projecting trial 123 of 132
+...back-projecting trial 124 of 132
+...back-projecting trial 125 of 132
+...back-projecting trial 126 of 132
+...back-projecting trial 127 of 132
+...back-projecting trial 128 of 132
+...back-projecting trial 129 of 132
+...back-projecting trial 130 of 132
+...back-projecting trial 131 of 132
+...back-projecting trial 132 of 132
+reading file "106521_MEG_5-Restin_rmegpreproc.mat" with md5sum 6293817ae9fd8e2b8eb6dd4214ff5c9b
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 8 MB
+the call to "ft_prepare_leadfield" took 53 seconds and required the additional allocation of an estimated 39 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 8 MB
+the input is raw data with 240 channels and 120 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 2 seconds and required the additional allocation of an estimated 447 MB
+beamforming starting...
+the input is timelock data with 240 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 447 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 447 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 215/8004scanning grid 453/8004scanning grid 652/8004scanning grid 833/8004scanning grid 1169/8004scanning grid 1434/8004scanning grid 1788/8004scanning grid 2066/8004scanning grid 2348/8004scanning grid 2556/8004scanning grid 2866/8004scanning grid 3215/8004scanning grid 3562/8004scanning grid 3911/8004scanning grid 4264/8004scanning grid 4603/8004scanning grid 4948/8004scanning grid 5294/8004scanning grid 5619/8004scanning grid 5959/8004scanning grid 6255/8004scanning grid 6548/8004scanning grid 6895/8004scanning grid 7128/8004scanning grid 7418/8004scanning grid 7762/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 447 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 240 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 240
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 120
+...back-projecting trial 1 of 120
+...back-projecting trial 2 of 120
+...back-projecting trial 3 of 120
+...back-projecting trial 4 of 120
+...back-projecting trial 5 of 120
+...back-projecting trial 6 of 120
+...back-projecting trial 7 of 120
+...back-projecting trial 8 of 120
+...back-projecting trial 9 of 120
+...back-projecting trial 10 of 120
+...back-projecting trial 11 of 120
+...back-projecting trial 12 of 120
+...back-projecting trial 13 of 120
+...back-projecting trial 14 of 120
+...back-projecting trial 15 of 120
+...back-projecting trial 16 of 120
+...back-projecting trial 17 of 120
+...back-projecting trial 18 of 120
+...back-projecting trial 19 of 120
+...back-projecting trial 20 of 120
+...back-projecting trial 21 of 120
+...back-projecting trial 22 of 120
+...back-projecting trial 23 of 120
+...back-projecting trial 24 of 120
+...back-projecting trial 25 of 120
+...back-projecting trial 26 of 120
+...back-projecting trial 27 of 120
+...back-projecting trial 28 of 120
+...back-projecting trial 29 of 120
+...back-projecting trial 30 of 120
+...back-projecting trial 31 of 120
+...back-projecting trial 32 of 120
+...back-projecting trial 33 of 120
+...back-projecting trial 34 of 120
+...back-projecting trial 35 of 120
+...back-projecting trial 36 of 120
+...back-projecting trial 37 of 120
+...back-projecting trial 38 of 120
+...back-projecting trial 39 of 120
+...back-projecting trial 40 of 120
+...back-projecting trial 41 of 120
+...back-projecting trial 42 of 120
+...back-projecting trial 43 of 120
+...back-projecting trial 44 of 120
+...back-projecting trial 45 of 120
+...back-projecting trial 46 of 120
+...back-projecting trial 47 of 120
+...back-projecting trial 48 of 120
+...back-projecting trial 49 of 120
+...back-projecting trial 50 of 120
+...back-projecting trial 51 of 120
+...back-projecting trial 52 of 120
+...back-projecting trial 53 of 120
+...back-projecting trial 54 of 120
+...back-projecting trial 55 of 120
+...back-projecting trial 56 of 120
+...back-projecting trial 57 of 120
+...back-projecting trial 58 of 120
+...back-projecting trial 59 of 120
+...back-projecting trial 60 of 120
+...back-projecting trial 61 of 120
+...back-projecting trial 62 of 120
+...back-projecting trial 63 of 120
+...back-projecting trial 64 of 120
+...back-projecting trial 65 of 120
+...back-projecting trial 66 of 120
+...back-projecting trial 67 of 120
+...back-projecting trial 68 of 120
+...back-projecting trial 69 of 120
+...back-projecting trial 70 of 120
+...back-projecting trial 71 of 120
+...back-projecting trial 72 of 120
+...back-projecting trial 73 of 120
+...back-projecting trial 74 of 120
+...back-projecting trial 75 of 120
+...back-projecting trial 76 of 120
+...back-projecting trial 77 of 120
+...back-projecting trial 78 of 120
+...back-projecting trial 79 of 120
+...back-projecting trial 80 of 120
+...back-projecting trial 81 of 120
+...back-projecting trial 82 of 120
+...back-projecting trial 83 of 120
+...back-projecting trial 84 of 120
+...back-projecting trial 85 of 120
+...back-projecting trial 86 of 120
+...back-projecting trial 87 of 120
+...back-projecting trial 88 of 120
+...back-projecting trial 89 of 120
+...back-projecting trial 90 of 120
+...back-projecting trial 91 of 120
+...back-projecting trial 92 of 120
+...back-projecting trial 93 of 120
+...back-projecting trial 94 of 120
+...back-projecting trial 95 of 120
+...back-projecting trial 96 of 120
+...back-projecting trial 97 of 120
+...back-projecting trial 98 of 120
+...back-projecting trial 99 of 120
+...back-projecting trial 100 of 120
+...back-projecting trial 101 of 120
+...back-projecting trial 102 of 120
+...back-projecting trial 103 of 120
+...back-projecting trial 104 of 120
+...back-projecting trial 105 of 120
+...back-projecting trial 106 of 120
+...back-projecting trial 107 of 120
+...back-projecting trial 108 of 120
+...back-projecting trial 109 of 120
+...back-projecting trial 110 of 120
+...back-projecting trial 111 of 120
+...back-projecting trial 112 of 120
+...back-projecting trial 113 of 120
+...back-projecting trial 114 of 120
+...back-projecting trial 115 of 120
+...back-projecting trial 116 of 120
+...back-projecting trial 117 of 120
+...back-projecting trial 118 of 120
+...back-projecting trial 119 of 120
+...back-projecting trial 120 of 120
+ > SOURCE RECONSTRUCTION subject 6 of 91 (id 108323)
+reading file "108323_MEG_anatomy_sourcemodel_2d.mat" with md5sum 2f7f08b5037953867665bff6cfa17c27
+Elapsed time is 0.239744 seconds.
+reading file "108323_MEG_anatomy_headmodel.mat" with md5sum 3479f2e2a86bc766734a09885d987d54
+reading file "108323_MEG_3-Restin_rmegpreproc.mat" with md5sum a050d3715541688a0ab649c867c16640
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 52 seconds and required the additional allocation of an estimated 0 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 244 channels and 141 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 536 MB
+beamforming starting...
+the input is timelock data with 244 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 534 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 534 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 282/8004scanning grid 633/8004scanning grid 796/8004scanning grid 977/8004scanning grid 1149/8004scanning grid 1319/8004scanning grid 1480/8004scanning grid 1656/8004scanning grid 1831/8004scanning grid 2034/8004scanning grid 2354/8004scanning grid 2620/8004scanning grid 2891/8004scanning grid 3195/8004scanning grid 3531/8004scanning grid 3805/8004scanning grid 4105/8004scanning grid 4299/8004scanning grid 4646/8004scanning grid 4966/8004scanning grid 5221/8004scanning grid 5471/8004scanning grid 5774/8004scanning grid 6086/8004scanning grid 6342/8004scanning grid 6677/8004scanning grid 6994/8004scanning grid 7329/8004scanning grid 7669/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 534 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 244 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 244
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 141
+...back-projecting trial 1 of 141
+...back-projecting trial 2 of 141
+...back-projecting trial 3 of 141
+...back-projecting trial 4 of 141
+...back-projecting trial 5 of 141
+...back-projecting trial 6 of 141
+...back-projecting trial 7 of 141
+...back-projecting trial 8 of 141
+...back-projecting trial 9 of 141
+...back-projecting trial 10 of 141
+...back-projecting trial 11 of 141
+...back-projecting trial 12 of 141
+...back-projecting trial 13 of 141
+...back-projecting trial 14 of 141
+...back-projecting trial 15 of 141
+...back-projecting trial 16 of 141
+...back-projecting trial 17 of 141
+...back-projecting trial 18 of 141
+...back-projecting trial 19 of 141
+...back-projecting trial 20 of 141
+...back-projecting trial 21 of 141
+...back-projecting trial 22 of 141
+...back-projecting trial 23 of 141
+...back-projecting trial 24 of 141
+...back-projecting trial 25 of 141
+...back-projecting trial 26 of 141
+...back-projecting trial 27 of 141
+...back-projecting trial 28 of 141
+...back-projecting trial 29 of 141
+...back-projecting trial 30 of 141
+...back-projecting trial 31 of 141
+...back-projecting trial 32 of 141
+...back-projecting trial 33 of 141
+...back-projecting trial 34 of 141
+...back-projecting trial 35 of 141
+...back-projecting trial 36 of 141
+...back-projecting trial 37 of 141
+...back-projecting trial 38 of 141
+...back-projecting trial 39 of 141
+...back-projecting trial 40 of 141
+...back-projecting trial 41 of 141
+...back-projecting trial 42 of 141
+...back-projecting trial 43 of 141
+...back-projecting trial 44 of 141
+...back-projecting trial 45 of 141
+...back-projecting trial 46 of 141
+...back-projecting trial 47 of 141
+...back-projecting trial 48 of 141
+...back-projecting trial 49 of 141
+...back-projecting trial 50 of 141
+...back-projecting trial 51 of 141
+...back-projecting trial 52 of 141
+...back-projecting trial 53 of 141
+...back-projecting trial 54 of 141
+...back-projecting trial 55 of 141
+...back-projecting trial 56 of 141
+...back-projecting trial 57 of 141
+...back-projecting trial 58 of 141
+...back-projecting trial 59 of 141
+...back-projecting trial 60 of 141
+...back-projecting trial 61 of 141
+...back-projecting trial 62 of 141
+...back-projecting trial 63 of 141
+...back-projecting trial 64 of 141
+...back-projecting trial 65 of 141
+...back-projecting trial 66 of 141
+...back-projecting trial 67 of 141
+...back-projecting trial 68 of 141
+...back-projecting trial 69 of 141
+...back-projecting trial 70 of 141
+...back-projecting trial 71 of 141
+...back-projecting trial 72 of 141
+...back-projecting trial 73 of 141
+...back-projecting trial 74 of 141
+...back-projecting trial 75 of 141
+...back-projecting trial 76 of 141
+...back-projecting trial 77 of 141
+...back-projecting trial 78 of 141
+...back-projecting trial 79 of 141
+...back-projecting trial 80 of 141
+...back-projecting trial 81 of 141
+...back-projecting trial 82 of 141
+...back-projecting trial 83 of 141
+...back-projecting trial 84 of 141
+...back-projecting trial 85 of 141
+...back-projecting trial 86 of 141
+...back-projecting trial 87 of 141
+...back-projecting trial 88 of 141
+...back-projecting trial 89 of 141
+...back-projecting trial 90 of 141
+...back-projecting trial 91 of 141
+...back-projecting trial 92 of 141
+...back-projecting trial 93 of 141
+...back-projecting trial 94 of 141
+...back-projecting trial 95 of 141
+...back-projecting trial 96 of 141
+...back-projecting trial 97 of 141
+...back-projecting trial 98 of 141
+...back-projecting trial 99 of 141
+...back-projecting trial 100 of 141
+...back-projecting trial 101 of 141
+...back-projecting trial 102 of 141
+...back-projecting trial 103 of 141
+...back-projecting trial 104 of 141
+...back-projecting trial 105 of 141
+...back-projecting trial 106 of 141
+...back-projecting trial 107 of 141
+...back-projecting trial 108 of 141
+...back-projecting trial 109 of 141
+...back-projecting trial 110 of 141
+...back-projecting trial 111 of 141
+...back-projecting trial 112 of 141
+...back-projecting trial 113 of 141
+...back-projecting trial 114 of 141
+...back-projecting trial 115 of 141
+...back-projecting trial 116 of 141
+...back-projecting trial 117 of 141
+...back-projecting trial 118 of 141
+...back-projecting trial 119 of 141
+...back-projecting trial 120 of 141
+...back-projecting trial 121 of 141
+...back-projecting trial 122 of 141
+...back-projecting trial 123 of 141
+...back-projecting trial 124 of 141
+...back-projecting trial 125 of 141
+...back-projecting trial 126 of 141
+...back-projecting trial 127 of 141
+...back-projecting trial 128 of 141
+...back-projecting trial 129 of 141
+...back-projecting trial 130 of 141
+...back-projecting trial 131 of 141
+...back-projecting trial 132 of 141
+...back-projecting trial 133 of 141
+...back-projecting trial 134 of 141
+...back-projecting trial 135 of 141
+...back-projecting trial 136 of 141
+...back-projecting trial 137 of 141
+...back-projecting trial 138 of 141
+...back-projecting trial 139 of 141
+...back-projecting trial 140 of 141
+...back-projecting trial 141 of 141
+reading file "108323_MEG_4-Restin_rmegpreproc.mat" with md5sum e709b438eea1191f4ac957b4cb958fd2
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+8004 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 4 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 52 seconds and required the additional allocation of an estimated 31 MB
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+Your data and configuration allow for multiple sensor definitions.
+[Warning: using gradiometers specified in the configuration\n] 
+computing surface normals
+creating sourcemodel based on user specified dipole positions
+using gradiometers specified in the configuration
+148 dipoles inside, 0 dipoles outside brain
+the call to "ft_prepare_sourcemodel" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_prepare_leadfield" took 2 seconds and required the additional allocation of an estimated 0 MB
+the input is raw data with 245 channels and 149 trials
+[Warning: sampleinfo in the configuration is inconsistent with the actual data] 
+[Warning: reconstructing sampleinfo by assuming that the trials are consecutive
+segments of a continuous recording] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+the call to "ft_timelockanalysis" took 3 seconds and required the additional allocation of an estimated 567 MB
+beamforming starting...
+the input is timelock data with 245 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 567 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 567 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 197/8004scanning grid 398/8004scanning grid 685/8004scanning grid 1026/8004scanning grid 1382/8004scanning grid 1718/8004scanning grid 2064/8004scanning grid 2353/8004scanning grid 2674/8004scanning grid 2995/8004scanning grid 3246/8004scanning grid 3535/8004scanning grid 3890/8004scanning grid 4241/8004scanning grid 4592/8004scanning grid 4946/8004scanning grid 5299/8004scanning grid 5641/8004scanning grid 5993/8004scanning grid 6346/8004scanning grid 6665/8004scanning grid 7015/8004scanning grid 7366/8004scanning grid 7554/8004scanning grid 7870/8004scanning grid 8004/8004
+the call to "ft_sourceanalysis" took 3 seconds and required the additional allocation of an estimated 567 MB
+...beamforming ended
+ROI beamforming starting...
+the input is timelock data with 245 channels and 1018 timebins
+[Warning: use cfg.sourcemodel instead of cfg.grid] 
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+using precomputed leadfields
+the call to "ft_selectdata" took 0 seconds and required the additional allocation of an estimated 0 MB
+scanning repetition 1
+using precomputed leadfields
+scanning grid
+scanning grid 148/148
+the call to "ft_sourceanalysis" took 0 seconds and required the additional allocation of an estimated 0 MB
+...ROI beamforming ended
+>> Nsensors = 245
+>> Nsources = 8004
+>> NsourcesROI = 148
+>> Ntimes = 1018
+>> Ntrials = 149

@@ -6,3 +6,5 @@ container
 *.swp
 *.pyc
 .ipynb_checkpoints
+scripts/cluster
+test

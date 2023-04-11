@@ -64,7 +64,7 @@ from sklearn import linear_model,feature_selection,preprocessing
 from sklearn.preprocessing import RobustScaler											 
 from nilearn.signal import clean
 from nilearn import connectome
-from sklearn.covariance import MinCovDet,GraphicalLassoCV,LedoitWolf
+from sklearn.covariance import MinCovDet,GraphLassoCV,LedoitWolf
 from past.utils import old_div
 import operator
 import gzip
