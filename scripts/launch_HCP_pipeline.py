@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys
-sys.path.insert(0, '~/Documents/HCP_MRI_behavior')
+sys.path.insert(0, '/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI')
 # # Load libraries & helper functions
 from src.HCP_helpers import *
 
@@ -15,7 +15,7 @@ config.outDir             = op.join(config.DATADIR,'Results', 'rsDenoise')
 #config.outDir             = op.join('rsDenoise')
 
 # Which resting-state denoising pipeline should be used?
-config.pipelineName            = 'B'
+config.pipelineName            = 'A'
 config.Operations              = config.operationDict[config.pipelineName]
 config.interpolation           = 'linear' # or 'linear' or 'astropy'
 
@@ -41,8 +41,8 @@ config.movementRegressorsFile  = 'Movement_Regressors_dt.txt'
 config.nParcels = 148
 
 if config.isCifti:
-    config.parcellationName = 'Schaefer_Aseg_SUIT_cortex'
-    config.parcellationFile = '/data/100307/MNINonLinear/aparc.a2009s+aseg.nii.gz'
+    config.parcellationName = 'Destrieux'
+    config.parcellationFile = '/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/#subjectID#/MNINonLinear/#subjectID#.aparc.a2009s.164k_fs_LR.dlabel.nii'
     #config.parcellationName = 'Schaefer600_Aseg_SUIT_surf'
     #config.parcellationFile = '/data/pgaldi/Schaefer600_Aseg_Suit/Parcels.dlabel.nii'
     #config.parcellationName = 'Glasser'
@@ -74,8 +74,10 @@ fmriRuns = ['rfMRI_REST1_LR','rfMRI_REST1_RL','rfMRI_REST2_LR','rfMRI_REST2_RL']
 # ### MRI processing
 for config.subject in ['100307']:
 #for config.subject in subjects:
+    config.parcellationFile = config.parcellationFile.replace('#subjectID#', config.subject)
     for config.fmriRun in fmriRuns:
         runPipelinePar(do_makeGrayPlot=True, do_plotFC=True, overwriteFC=False)
+    config.parcellationFile = config.parcellationFile.replace(config.subject, '#subjectID#') 
 
                 
 # if len(config.scriptlist)>0:
