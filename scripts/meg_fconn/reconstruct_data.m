@@ -12,7 +12,7 @@ n_epochs = 33;
 mfiles = dir('/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/output/Enrico_MEG_source_localization_test/*.mat');
 counter = 1;
 epoch_length = 4;
-emptyMatrix = zeros(148, 1018*4, 29);
+
 
 for file = mfiles'
     disp(file);
@@ -20,11 +20,16 @@ for file = mfiles'
     disp(size(meg.ts_ROI));
     m = size(meg.ts_ROI);
     disp(m(1));
-    if m(1) ~= 148
+    if (m(1) ~= 148)
         continue
     end
+
+    dim3 = floor(m(3)/4)
+
+    emptyMatrix = zeros(148, 1018*4, dim3);
+
     for j = 1:148
-        for i = 1:29
+        for i = 1:dim3
             start_epoch = (i-1) * 4 + 1;
             end_epoch = start_epoch + 3;
             epoch = reshape(meg.ts_ROI(j, :, start_epoch:end_epoch), [], 1);

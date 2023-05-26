@@ -42,7 +42,7 @@ config.nParcels = 148
 
 if config.isCifti:
     config.parcellationName = 'Destrieux'
-    config.parcellationFile = '/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/#subjectID#/MNINonLinear/#subjectID#.aparc.a2009s.164k_fs_LR.dlabel.nii'
+    config.parcellationFile = '/home/deliang@chapman.edu/Documents/HCP_MEG_fMRI/data/#subjectID#/MNINonLinear/fsaverage_LR32k/#subjectID#.aparc.a2009s.32k_fs_LR.dlabel.nii'
     #config.parcellationName = 'Schaefer600_Aseg_SUIT_surf'
     #config.parcellationFile = '/data/pgaldi/Schaefer600_Aseg_Suit/Parcels.dlabel.nii'
     #config.parcellationName = 'Glasser'

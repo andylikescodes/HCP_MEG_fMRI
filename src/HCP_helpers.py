@@ -2115,7 +2115,7 @@ def parcellate(overwrite=False):
             maskAll  = np.ones(np.shape(maskAll), dtype=bool)
         allparcels, nRows, nCols, nSlices, nTRs, affine, TR, header = load_img(config.parcellationFile, maskAll)
         if config.maskParcelswithGM:
-            allparcels[np.logical_not(maskGM_)] = 0;
+            allparcels[np.logical_not(maskGM_)] = 0
     else:
         if not op.isfile(config.parcellationFile.replace('.dlabel.nii','.tsv')):    
             cmd = 'wb_command -cifti-convert -to-text {} {}'.format(config.parcellationFile,
@@ -2137,6 +2137,7 @@ def parcellate(overwrite=False):
                 cmd = 'wb_command -cifti-convert -to-text {} {}'.format(config.fmriFile,tsvFile)
                 call(cmd, shell=True)
             data = pd.read_csv(tsvFile,sep='\t',header=None,dtype=np.float32).values
+            
         
         for iParcel in np.arange(config.nParcels):
             tsFile = op.join(tsDir,'parcel{:03d}.txt'.format(iParcel+1))
