@@ -38,7 +38,11 @@ config.movementRegressorsFile  = 'Movement_Regressors_dt.txt'
 #config.nParcels = 268 #Shen
 #config.nParcels = 360 #Glasser
 
-config.nParcels = 148
+tmp = np.asarray([x for x in range(151)])
+tmp = np.delete(tmp, [0, 42, 117])
+tmp = tmp - 1
+
+config.nParcels = tmp
 
 if config.isCifti:
     config.parcellationName = 'Destrieux'
@@ -71,8 +75,16 @@ if not config.isCifti:
 # Define input
 fmriRuns = ['rfMRI_REST1_LR','rfMRI_REST1_RL','rfMRI_REST2_LR','rfMRI_REST2_RL']
 
+import glob
+import os
+
+folders = glob.glob(os.path.join(config.DATADIR, '*'))
+number_folders = [os.path.basename(folder) for folder in folders if os.path.isdir(folder) and folder.split('/')[-1].isdigit()]
+
+print(number_folders)
+
 # ### MRI processing
-for config.subject in ['100307']:
+for config.subject in number_folders:
 #for config.subject in subjects:
     config.parcellationFile = config.parcellationFile.replace('#subjectID#', config.subject)
     for config.fmriRun in fmriRuns:

@@ -1832,7 +1832,7 @@ def TemporalFiltering(niiImg, flavor, masks, imgInfo):
             x = data2.T
             x1 = np.zeros((NR, x.shape[1]))
             x2 = np.zeros((NR, x.shape[1]))
-            for i in range(x.shape[2]):
+            for i in range(x.shape[1]):
                 x1[:,i] = 2*x[0,i] - np.flipud(x[1:NR+1,i])
                 x2[:,i] = 2*x[-1,i] - np.flipud(x[-NR-1:-1,i])
             x = np.vstack([x1,x,x2])
@@ -2122,7 +2122,7 @@ def parcellate(overwrite=False):
                                                                    config.parcellationFile.replace('.dlabel.nii','.tsv'))
             call(cmd, shell=True)
         allparcels = np.loadtxt(config.parcellationFile.replace('.dlabel.nii','.tsv'))
-    
+            
     ####################
     # original data
     ####################
@@ -2139,7 +2139,8 @@ def parcellate(overwrite=False):
             data = pd.read_csv(tsvFile,sep='\t',header=None,dtype=np.float32).values
             
         
-        for iParcel in np.arange(config.nParcels):
+        # for iParcel in np.arange(config.nParcels):
+        for iParcel in config.nParcels:
             tsFile = op.join(tsDir,'parcel{:03d}.txt'.format(iParcel+1))
             if not op.isfile(tsFile) or overwrite:
                 np.savetxt(tsFile,np.nanmean(data[np.where(allparcels==iParcel+1)[0],:],axis=0),fmt='%.16f',delimiter='\n')
@@ -2165,7 +2166,7 @@ def parcellate(overwrite=False):
                 call(cmd, shell=True)
             data = pd.read_csv(config.fmriFile_dn.replace('.dtseries.nii','.tsv'),sep='\t',header=None,dtype=np.float32).values
                    
-        for iParcel in np.arange(config.nParcels):
+        for iParcel in config.nParcels:
             tsFile = op.join(tsDir,'parcel{:03d}_{}.txt'.format(iParcel+1,rstring))
             if not op.isfile(tsFile) or overwrite:
                 np.savetxt(tsFile,np.nanmean(data[np.where(allparcels==iParcel+1)[0],:],axis=0),fmt='%.16f',delimiter='\n')
